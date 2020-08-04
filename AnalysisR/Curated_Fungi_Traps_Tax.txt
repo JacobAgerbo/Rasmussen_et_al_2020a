@@ -1,0 +1,580 @@
+OTU	Kingdom	Phylum	Class	Order	Family	Genus	Species
+OTU_285	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Phaeosphaeriaceae	 Chaetosphaeronema	 Chaetosphaeronema achilleae
+OTU_1008	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Hyaloscyphaceae	 Hyaloscypha	 Hyaloscypha minuta
+OTU_1567	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Fusarium	 Fusarium sp. CBG_I10CCH
+OTU_5	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Cladosporiaceae	 Cladosporium	 Cladosporium sp. 5 SG-2017
+OTU_1516	Fungi	 Basidiomycota	 Tremellomycetes	 Cystofilobasidiales	 Cystofilobasidiaceae	 Cystofilobasidium	 Cystofilobasidium macerans
+OTU_3	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Starmerella	 Starmerella bombicola
+OTU_503	Fungi	 Basidiomycota	 Agaricomycetes	 Cantharellales	 unidentified	 unidentified	 uncultured Minimedusa
+OTU_522	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Hyaloscyphaceae	 Fuscolachnum	 Fuscolachnum misellum
+OTU_1878	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia reukaufii
+OTU_173	Fungi	 Ascomycota	 Dothideomycetes	 unidentified	 unidentified	 unidentified	 Dothideomycetes sp. A583
+OTU_57	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Starmerella	 Candida sp. C6 BR-2016
+OTU_603	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Mycosphaerellaceae	 Amycosphaerella	 Amycosphaerella africana
+OTU_1785	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 Sporocadaceae	 Monochaetia	 Monochaetia sp. PQG03
+OTU_678	Fungi	 Ascomycota	 Eurotiomycetes	 Chaetothyriales	 Herpotrichiellaceae	 Cladophialophora	 Cladophialophora proteae
+OTU_1582	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 unidentified	 unidentified	 Helotiales sp. JCM 28447
+OTU_429	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Cephaloascaceae	 Cephaloascus	 Cephaloascus albidus
+OTU_835	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Bulleribasidiaceae	 Dioszegia	 Dioszegia antarctica
+OTU_605	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 Apiosporaceae	 Arthrinium	 Arthrinium serenense
+OTU_120	Fungi	 Ascomycota	 Saccharomycetes	 unidentified	 unidentified	 unidentified	 uncultured Saccharomycetes
+OTU_928	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 Sesquicillium	 Sesquicillium microsporum
+OTU_549	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Dermateaceae	 unidentified	 Dermateaceae sp.
+OTU_370	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps monticola
+OTU_1007	Fungi	 Basidiomycota	 Agaricomycetes	 Cantharellales	 Ceratobasidiaceae	 Thanatephorus	 Thanatephorus cucumeris
+OTU_1090	Fungi	 Ascomycota	 Sordariomycetes	 Diaporthales	 Diaporthaceae	 Diaporthe	 Diaporthe ovoicicola
+OTU_1075	Fungi	 Ascomycota	 Dothideomycetes	 unidentified	 unidentified	 unidentified	 Dothideomycetes sp. genotype 257
+OTU_504	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia reukaufii
+OTU_58	Fungi	 Ascomycota	 Sordariomycetes	 Coniochaetales	 unidentified	 unidentified	 uncultured Coniochaeta
+OTU_2255	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps pazoutovae
+OTU_94	Fungi	 Ascomycota	 Sordariomycetes	 Microascales	 Halosphaeriaceae	 Tinhaudeus	 Tinhaudeus formosanus
+OTU_599	Fungi	 Ascomycota	 Leotiomycetes	 unidentified	 unidentified	 unidentified	 Leotiomycetes sp. JCM 28455
+OTU_466	Fungi	 Ascomycota	 Leotiomycetes	 Thelebolales	 Thelebolaceae	 Thelebolus	 Thelebolus sp. 11-1375
+OTU_687	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 Acremonium	 Acremonium radiatum
+OTU_111	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Debaryomycetaceae	 Scheffersomyces	 Scheffersomyces sp. CBS 4113
+OTU_47	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Saccharomycetaceae	 Lachancea	 Lachancea kluyveri
+OTU_2218	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 Microdochiaceae	 Microdochium	 Microdochium seminicola
+OTU_2191	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Mycosphaerellaceae	 Ramularia	 Ramularia unterseheri
+OTU_294	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia gruessii
+OTU_152	Fungi	 Ascomycota	 Sordariomycetes	 Microascales	 Halosphaeriaceae	 Corollospora	 Corollospora fusca
+OTU_1434	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Fusarium	 Fusarium oxysporum
+OTU_16	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Saccharomycetaceae	 Zygosaccharomyces	 Zygosaccharomyces sp. NBRC 10672
+OTU_722	Fungi	 Basidiomycota	 Exobasidiomycetes	 Entylomatales	 Entylomataceae	 Entyloma	 Entyloma ficariae
+OTU_21	Fungi	 Ascomycota	 Dothideomycetes	 Dothideales	 Saccotheciaceae	 Aureobasidium	 Aureobasidium sp. 5-2-2
+OTU_1813	Fungi	 Chytridiomycota	 Chytridiomycetes	 Rhizophydiales	 Halomycetaceae	 Paranamyces	 Paranamyces sp.
+OTU_389	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 Sarocladium	 Sarocladium sp. E31
+OTU_147	Fungi	 Basidiomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Basidiomycota
+OTU_487	Fungi	 Ascomycota	 Leotiomycetes	 Phacidiales	 Phacidiaceae	 Ceuthospora	 Ceuthospora sp. 15-NL
+OTU_256	Fungi	 Ascomycota	 Pezizomycetes	 Pezizales	 Ascodesmidaceae	 Ascodesmis	 Ascodesmis nigricans
+OTU_1471	Fungi	 Basidiomycota	 Agaricomycetes	 Polyporales	 Polyporaceae	 Perenniporia	 Perenniporia sp. MUCL 51629
+OTU_633	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 unidentified	 uncultured Fusarium
+OTU_1851	Fungi	 Ascomycota	 Lecanoromycetes	 Peltigerales	 Peltigeraceae	 Peltigera	 Peltigera kristinssonii
+OTU_1532	Fungi	 Ascomycota	 Sordariomycetes	 unidentified	 unidentified	 Acrodictys	 Acrodictys porosiseptata
+OTU_542	Fungi	 Ascomycota	 Dothideomycetes	 Botryosphaeriales	 Botryosphaeriaceae	 Lasiodiplodia	 Lasiodiplodia venezuelensis
+OTU_1034	Fungi	 Ascomycota	 Orbiliomycetes	 Orbiliales	 unidentified	 unidentified	 Orbiliales sp.
+OTU_226	Fungi	 Basidiomycota	 unidentified	 unidentified	 unidentified	 unidentified	 Basidiomycota sp. EM-2012b
+OTU_379	Fungi	 Ascomycota	 Eurotiomycetes	 Chaetothyriales	 Epibryaceae	 unidentified	 Epibryaceae sp. A579
+OTU_1342	Fungi	 Basidiomycota	 Agaricomycetes	 Russulales	 Russulaceae	 Russula	 Russula absphaerocellaris
+OTU_1834	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Niessliaceae	 unidentified	 Niessliaceae sp. JCM 28496
+OTU_1564	Fungi	 Basidiomycota	 Cystobasidiomycetes	 Cystobasidiales	 Cystobasidiaceae	 Cystobasidium	 Cystobasidium pinicola
+OTU_1868	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Debaryomycetaceae	 Meyerozyma	 Meyerozyma sp.
+OTU_903	Fungi	 Ascomycota	 Eurotiomycetes	 Eurotiales	 Aspergillaceae	 Penicillium	 Penicillium sp. 6 MGS-2017
+OTU_1512	Fungi	 Ascomycota	 Dothideomycetes	 unidentified	 unidentified	 unidentified	 Dothideomycetes sp. genotype 679 JMUR-2016
+OTU_577	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Cryptococcaceae	 Cryptococcus	 Cryptococcus sp. YM15-3
+OTU_524	Fungi	 Ascomycota	 Dothideomycetes	 Asterotexiales	 unidentified	 Melaspileopsis	 Melaspileopsis cf. diplasiospora Ertz 16625 (BR)
+OTU_518	Fungi	 Ascomycota	 Eurotiomycetes	 Eurotiales	 Aspergillaceae	 Aspergillus	 Aspergillus sp. JCM 28521
+OTU_277	Fungi	 Basidiomycota	 Exobasidiomycetes	 Microstromatales	 Microstromataceae	 Microstroma	 Microstroma album
+OTU_2288	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia reukaufii
+OTU_2001	Fungi	 Ascomycota	 Sordariomycetes	 Microascales	 Microascaceae	 Cephalotrichum	 Cephalotrichum laeve
+OTU_1489	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 unidentified	 Cadophora	 Cadophora sp. JCM 28585
+OTU_358	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Metarhizium	 Metarhizium brunneum
+OTU_399	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Debaryomycetaceae	 Yamadazyma	 Yamadazyma olivae
+OTU_1191	Fungi	 Basidiomycota	 Tremellomycetes	 Filobasidiales	 Piskurozymaceae	 Solicoccozyma	 Solicoccozyma terricola
+OTU_998	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia gruessii
+OTU_1843	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Trichomonascaceae	 Blastobotrys	 Blastobotrys sp. NCAIM Y.01954
+OTU_1188	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Teratosphaeriaceae	 Devriesia	 Devriesia sp. OTU54 TS-2013
+OTU_688	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Cuniculitremaceae	 Kockovaella	 Kockovaella mexicana
+OTU_1692	Fungi	 Ascomycota	 Dothideomycetes	 Botryosphaeriales	 Phyllostictaceae	 Phyllosticta	 Phyllosticta musaechinensis
+OTU_131	Fungi	 Basidiomycota	 Agaricostilbomycetes	 Agaricostilbales	 unidentified	 Jianyunia	 Jianyunia sakaguchii
+OTU_23	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Starmerella	 [Candida] apicola
+OTU_463	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Ascomycota
+OTU_286	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Mycosphaerellaceae	 Ramularia	 Ramularia collo-cygni
+OTU_146	Fungi	 Basidiomycota	 Tremellomycetes	 Cystofilobasidiales	 Cystofilobasidiaceae	 Cystofilobasidium	 Cystofilobasidium sp. KCTC 17060
+OTU_1258	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Thelonectria	 Thelonectria olida
+OTU_957	Fungi	 Basidiomycota	 Microbotryomycetes	 unidentified	 Chrysozymaceae	 Pseudohyphozyma	 Pseudohyphozyma buffonii
+OTU_343	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Lentitheciaceae	 Setoseptoria	 Setoseptoria arundinacea
+OTU_508	Fungi	 Basidiomycota	 Agaricomycetes	 Agaricales	 Omphalotaceae	 Gymnopus	 Gymnopus luxurians
+OTU_958	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Didymellaceae	 Boeremia	 Boeremia trachelospermi
+OTU_2018	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 Sporocadaceae	 Discosia	 Discosia sp. WJL-2015a
+OTU_1375	Fungi	 Ascomycota	 Leotiomycetes	 unidentified	 unidentified	 unidentified	 Leotiomycetes sp. CBS 259.65
+OTU_309	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Didymellaceae	 Phoma	 Phoma sp. OTU3 TS-2013
+OTU_656	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Stachybotryaceae	 unidentified	 Stachybotriaceae sp.
+OTU_69	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 Sporocadaceae	 Discosia	 Discosia sp. WJL-2015a
+OTU_502	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Teratosphaeriaceae	 Neocatenulostroma	 Neocatenulostroma abietis
+OTU_100	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Bulleribasidiaceae	 Vishniacozyma	 Vishniacozyma victoriae
+OTU_177	Fungi	 Basidiomycota	 Tremellomycetes	 Filobasidiales	 Filobasidiaceae	 Filobasidium	 Filobasidium wieringae
+OTU_104	Fungi	 Ascomycota	 Leotiomycetes	 unidentified	 Pseudeurotiaceae	 Pseudogymnoascus	 Pseudogymnoascus sp. I AM-2013
+OTU_505	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia reukaufii
+OTU_519	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Ascomycota
+OTU_614	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 Trizodia	 Trizodia acrobia
+OTU_1011	Fungi	 Ascomycota	 Eurotiomycetes	 Coryneliales	 Coryneliaceae	 Caliciopsis	 Caliciopsis beckhausii
+OTU_455	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Saccharomycopsidaceae	 Saccharomycopsis	 Saccharomycopsis microspora
+OTU_493	Fungi	 Ascomycota	 Sordariomycetes	 Microascales	 unidentified	 unidentified	 uncultured Doratomyces
+OTU_1613	Fungi	 Ascomycota	 Eurotiomycetes	 Chaetothyriales	 Trichomeriaceae	 Knufia	 Knufia tsunedae
+OTU_745	Fungi	 Basidiomycota	 Tremellomycetes	 Filobasidiales	 Filobasidiaceae	 Naganishia	 Naganishia onofrii
+OTU_2276	Fungi	 Basidiomycota	 Ustilaginomycetes	 Ustilaginales	 Ustilaginaceae	 Ustilago	 Ustilago nuda
+OTU_922	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Fusarium	 Fusarium sp. F-267
+OTU_236	Fungi	 Basidiomycota	 Exobasidiomycetes	 Microstromatales	 unidentified	 Pseudomicrostroma	 Pseudomicrostroma phylloplanum
+OTU_346	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Hypocreaceae	 Trichoderma	 Trichoderma sp. JCM 28076
+OTU_1980	Fungi	 Ascomycota	 Lecanoromycetes	 Lecanorales	 Ramalinaceae	 Bacidina	 Bacidina neosquamulosa
+OTU_388	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Bulleribasidiaceae	 Dioszegia	 Dioszegia hungarica
+OTU_796	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 Tetracladium	 Tetracladium sp. MG04
+OTU_1545	Fungi	 Basidiomycota	 Agaricostilbomycetes	 Agaricostilbales	 unidentified	 Jianyunia	 Jianyunia sakaguchii
+OTU_462	Fungi	 Ascomycota	 Sordariomycetes	 Diaporthales	 Schizoparmaceae	 Coniella	 Coniella diplodiopsis
+OTU_214	Fungi	 Ascomycota	 Orbiliomycetes	 Orbiliales	 Orbiliaceae	 Orbilia	 Orbilia sp. HOB-2016bc
+OTU_1738	Fungi	 Basidiomycota	 Exobasidiomycetes	 Entylomatales	 Entylomataceae	 Entyloma	 Entyloma dahliae
+OTU_760	Fungi	 Basidiomycota	 Agaricomycetes	 Agaricales	 Entolomataceae	 Clitopilus	 Clitopilus giovanellae
+OTU_1326	Fungi	 Ascomycota	 Eurotiomycetes	 Onygenales	 Ascosphaeraceae	 Ascosphaera	 Ascosphaera apis
+OTU_1227	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 unidentified	 Robillarda	 Robillarda terrae
+OTU_811	Fungi	 Ascomycota	 Eurotiomycetes	 Eurotiales	 Aspergillaceae	 Aspergillus	 Aspergillus montevidensis
+OTU_169	Fungi	 Basidiomycota	 Tremellomycetes	 Cystofilobasidiales	 Mrakiaceae	 Itersonilia	 Itersonilia pastinacae
+OTU_64	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Starmerella	 Starmerella sp. 11-1206
+OTU_141	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 unidentified	 unidentified	 uncultured Helotiales
+OTU_306	Fungi	 Ascomycota	 Sordariomycetes	 Diaporthales	 Diaporthaceae	 Diaporthe	 Diaporthe cissampeli
+OTU_90	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia koreensis
+OTU_2312	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Lentitheciaceae	 Lentithecium	 Lentithecium voraginesporum
+OTU_409	Fungi	 Ascomycota	 Leotiomycetes	 unidentified	 Myxotrichaceae	 unidentified	 uncultured Geomyces
+OTU_219	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Cladosporiaceae	 Rachicladosporium	 Rachicladosporium inconspicuum
+OTU_2058	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps purpurea
+OTU_459	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 Isthmolongispora	 Isthmolongispora ampulliformis
+OTU_321	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Didymosphaeriaceae	 Kalmusia	 Kalmusia variispora
+OTU_991	Fungi	 Basidiomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Basidiomycota
+OTU_1871	Fungi	 Ascomycota	 Sordariomycetes	 Sordariales	 Cephalothecaceae	 unidentified	 uncultured Cephalotheca
+OTU_1216	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 Xylariaceae	 Rosellinia	 Rosellinia mammiformis
+OTU_1446	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Pichiaceae	 Ogataea	 Ogataea nakhonphanomensis
+OTU_1487	Fungi	 Ascomycota	 Sordariomycetes	 Microascales	 Ceratocystidaceae	 Huntiella	 Huntiella tyalla
+OTU_756	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia kamienskii
+OTU_676	Fungi	 Ascomycota	 Eurotiomycetes	 Chaetothyriales	 Herpotrichiellaceae	 Exophiala	 [Exophiala] eucalyptorum
+OTU_153	Fungi	 Ascomycota	 Arthoniomycetes	 Lichenostigmatales	 Phaeococcomycetaceae	 Phaeococcomyces	 Phaeococcomyces mexicanus
+OTU_1706	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Mycosphaerellaceae	 Geastrumia	 Geastrumia sp. N12C11
+OTU_243	Fungi	 Ascomycota	 Taphrinomycetes	 Taphrinales	 Taphrinaceae	 Taphrina	 Taphrina inositophila
+OTU_140	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Niessliaceae	 Niesslia	 Niesslia exilis
+OTU_816	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia reukaufii
+OTU_53	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Debaryomycetaceae	 Wickerhamia	 Wickerhamia sp.
+OTU_610	Fungi	 Ascomycota	 Leotiomycetes	 Erysiphales	 Erysiphaceae	 Erysiphe	 Erysiphe heraclei
+OTU_349	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Tetracladium
+OTU_1863	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia reukaufii
+OTU_327	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 unidentified	 unidentified	 uncultured Pleurophoma
+OTU_1570	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Helotiaceae	 Tricladium	 Tricladium sp. 117567
+OTU_532	Fungi	 Basidiomycota	 Agaricomycetes	 Corticiales	 Corticiaceae	 Hyphodontia	 Hyphodontia reticulata
+OTU_1880	Fungi	 Ascomycota	 Sordariomycetes	 Ophiostomatales	 Ophiostomataceae	 Ceratocystiopsis	 Ceratocystiopsis minima
+OTU_31	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Debaryomycetaceae	 Debaryomyces	 Debaryomyces maramus
+OTU_988	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Ascomycota
+OTU_1872	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps monticola
+OTU_693	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Ascomycota
+OTU_560	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Cosmospora	 Cosmospora sp. IMI 362240
+OTU_1988	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Pochonia	 Pochonia chlamydosporia
+OTU_298	Fungi	 Basidiomycota	 Exobasidiomycetes	 Entylomatales	 unidentified	 Tilletiopsis	 Tilletiopsis washingtonensis
+OTU_774	Fungi	 Basidiomycota	 Tremellomycetes	 Trichosporonales	 Trichosporonaceae	 Trichosporon	 Trichosporon sp. IFM 56913
+OTU_855	Fungi	 Basidiomycota	 Agaricomycetes	 Boletales	 Boletaceae	 Tylopilus	 Tylopilus balloui
+OTU_18	Fungi	 Ascomycota	 Lecanoromycetes	 Pertusariales	 Icmadophilaceae	 Siphula	 Siphula dissoluta
+OTU_334	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 Sarocladium	 Sarocladium summerbellii
+OTU_330	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Cladosporiaceae	 Verrucocladosporium	 Verrucocladosporium dirinae
+OTU_2348	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Cladosporiaceae	 Cladosporium	 Cladosporium sp. 5 SG-2017
+OTU_231	Fungi	 Ascomycota	 Lecanoromycetes	 Pertusariales	 Icmadophilaceae	 Thamnolia	 Thamnolia vermicularis
+OTU_337	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 Sarocladium	 Sarocladium implicatum
+OTU_208	Fungi	 Basidiomycota	 Tremellomycetes	 Cystofilobasidiales	 Mrakiaceae	 Mrakia	 Mrakia aquatica
+OTU_242	Fungi	 Ascomycota	 Dothideomycetes	 Dothideales	 Dothioraceae	 Pringsheimia	 Pringsheimia smilacis
+OTU_2346	Fungi	 Ascomycota	 Leotiomycetes	 Thelebolales	 Thelebolaceae	 Thelebolus	 Thelebolus sp. CRY-YB-241
+OTU_2039	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Cuniculitremaceae	 Kockovaella	 Kockovaella mexicana
+OTU_1944	Fungi	 Ascomycota	 Lecanoromycetes	 Ostropales	 Graphidaceae	 Graphis	 Graphis koratensis
+OTU_1224	Fungi	 Mucoromycota	 unidentified	 Mortierellales	 Mortierellaceae	 Mortierella	 Mortierella sp. BlackDot
+OTU_1941	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Ambrosiozyma	 Ambrosiozyma oregonensis
+OTU_336	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Debaryomycetaceae	 Scheffersomyces	 Scheffersomyces spartinae
+OTU_355	Fungi	 Ascomycota	 Eurotiomycetes	 Chaetothyriales	 Herpotrichiellaceae	 Exophiala	 Exophiala sp. CPC 12173
+OTU_1904	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Kuraishia	 Kuraishia sp. D4psO290
+OTU_282	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Mycosphaerellaceae	 Ramularia	 Ramularia hydrangeae-macrophyllae
+OTU_1324	Fungi	 Basidiomycota	 Agaricomycetes	 Cantharellales	 Botryobasidiaceae	 Botryobasidium	 Botryobasidium subcoronatum
+OTU_1563	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps nigricans
+OTU_749	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Trimorphomycetaceae	 Saitozyma	 Saitozyma cf. podzolica
+OTU_175	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Leotiaceae	 Alatospora	 Alatospora constricta
+OTU_1343	Fungi	 Basidiomycota	 Agaricomycetes	 Agaricales	 Amanitaceae	 Amanita	 Amanita sp. BEW-2011g
+OTU_651	Fungi	 Ascomycota	 Dothideomycetes	 unidentified	 unidentified	 unidentified	 Dothideomycetes sp. 1 GS-2016
+OTU_184	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Debaryomycetaceae	 unidentified	 uncultured Meyerozyma
+OTU_649	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Ascomycota
+OTU_1070	Fungi	 Basidiomycota	 Cystobasidiomycetes	 Erythrobasidiales	 Erythrobasidiaceae	 Erythrobasidium	 Erythrobasidium yunnanense
+OTU_2202	Fungi	 Ascomycota	 Sordariomycetes	 Magnaporthales	 Magnaporthaceae	 Slopeiomyces	 Slopeiomyces cylindrosporus
+OTU_670	Fungi	 Ascomycota	 Eurotiomycetes	 Eurotiales	 Aspergillaceae	 Penicillium	 Penicillium crocicola
+OTU_1954	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Starmerella	 Starmerella bombicola
+OTU_778	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia aff. fructicola sp. 1 NS-2016
+OTU_679	Fungi	 Ascomycota	 Sordariomycetes	 Togniniales	 Togniniaceae	 Phaeoacremonium	 Phaeoacremonium sp. OTU60 TS-2013
+OTU_705	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Stachybotryaceae	 Stachybotrys	 Stachybotrys sp. CBS 525.50
+OTU_1048	Fungi	 Basidiomycota	 Agaricomycetes	 Hymenochaetales	 Hymenochaetaceae	 Phylloporia	 Phylloporia sp. MUCL FG11_462
+OTU_507	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Bulleribasidiaceae	 Dioszegia	 Dioszegia rishiriensis
+OTU_179	Fungi	 Basidiomycota	 Microbotryomycetes	 Sporidiobolales	 Sporidiobolaceae	 Sporobolomyces	 Sporobolomyces cf. roseus MCA 3783
+OTU_99	Fungi	 Basidiomycota	 Tremellomycetes	 Cystofilobasidiales	 Cystofilobasidiaceae	 Cystofilobasidium	 Cystofilobasidium macerans
+OTU_842	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 unidentified	 unidentified	 uncultured Tremellales
+OTU_363	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Torulaceae	 Torula	 Torula ficus
+OTU_964	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps monticola
+OTU_2300	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 unidentified	 unidentified	 Capnodiales sp. CCFEE 5389
+OTU_397	Fungi	 Basidiomycota	 Cystobasidiomycetes	 unidentified	 unidentified	 unidentified	 Cystobasidiomycetes sp. P44D004
+OTU_944	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Sclerotiniaceae	 Ciboria	 Ciboria caucus
+OTU_238	Fungi	 Basidiomycota	 Microbotryomycetes	 Sporidiobolales	 Sporidiobolaceae	 Rhodotorula	 Rhodotorula aff. graminis EXF-7435
+OTU_180	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 Bartaliniaceae	 Truncatella	 Truncatella angustata
+OTU_552	Fungi	 Ascomycota	 Sordariomycetes	 Coronophorales	 Nitschkiaceae	 Nitschkia	 Nitschkia tetraspora
+OTU_2008	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 Ascomycota sp. ARIZ OCAsh3-11
+OTU_17	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia reukaufii
+OTU_222	Fungi	 Ascomycota	 Sordariomycetes	 unidentified	 unidentified	 unidentified	 Sordariomycetes sp. genotype 948 JMUR-2014
+OTU_36	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Candida	 Candida sp. YM24785
+OTU_20	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Saccharomycetaceae	 Saccharomyces	 Saccharomyces cf. cerevisiae/paradoxus
+OTU_406	Fungi	 Ascomycota	 Orbiliomycetes	 Orbiliales	 Orbiliaceae	 Dactylella	 Dactylella atractoides
+OTU_798	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Thyronectria	 Thyronectria lamyi
+OTU_2199	Fungi	 Basidiomycota	 Tremellomycetes	 Cystofilobasidiales	 Cystofilobasidiaceae	 Cystofilobasidium	 Cystofilobasidium sp. ST12.14/508
+OTU_305	Fungi	 Ascomycota	 Lecanoromycetes	 Ostropales	 Graphidaceae	 Astrochapsa	 Astrochapsa astroidea
+OTU_303	Fungi	 Basidiomycota	 Microbotryomycetes	 unidentified	 unidentified	 Curvibasidium	 Curvibasidium cygneicollum
+OTU_167	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Cryptococcaceae	 Cryptococcus	 Cryptococcus sp. YM25342
+OTU_1106	Fungi	 Ascomycota	 Eurotiomycetes	 Chaetothyriales	 Herpotrichiellaceae	 Cladophialophora	 Cladophialophora sp.
+OTU_212	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Cucurbitariaceae	 Pyrenochaeta	 Pyrenochaeta sp. MUT 4378
+OTU_1770	Fungi	 Ascomycota	 Sordariomycetes	 Glomerellales	 Glomerellaceae	 Colletotrichum	 Colletotrichum sp. CMON37
+OTU_91	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 Acremonium	 Acremonium sp. JCM 28389
+OTU_1611	Fungi	 Ascomycota	 Lecanoromycetes	 Ostropales	 Graphidaceae	 Gyalectidium	 Gyalectidium catenulatum
+OTU_203	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Pichiaceae	 Pichia	 Pichia sp. S413Y4
+OTU_2016	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Mycosphaerellaceae	 Septoria	 Septoria stellariae
+OTU_113	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Cucurbitariaceae	 Pyrenochaetopsis	 Pyrenochaetopsis sp. 1 NV-2015
+OTU_972	Fungi	 Ascomycota	 Lecanoromycetes	 Pertusariales	 Icmadophilaceae	 Siphulella	 Siphulella coralloidea
+OTU_133	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Phaeosphaeriaceae	 Setophoma	 Setophoma vernoniae
+OTU_537	Fungi	 Basidiomycota	 Cystobasidiomycetes	 unidentified	 unidentified	 Symmetrospora	 Symmetrospora gracilis
+OTU_45	Fungi	 Ascomycota	 Eurotiomycetes	 Onygenales	 Ascosphaeraceae	 Ascosphaera	 Ascosphaera cf. larvis 64254
+OTU_740	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Ascomycota
+OTU_1453	Fungi	 Ascomycota	 Taphrinomycetes	 Taphrinales	 Protomycetaceae	 Protomyces	 Protomyces inouyei
+OTU_237	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Pichiaceae	 Ogataea	 Ogataea nakhonphanomensis
+OTU_538	Fungi	 Ascomycota	 Pezizomycetes	 Pezizales	 Morchellaceae	 Morchella	 Morchella importuna
+OTU_1	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Pichiaceae	 Ogataea	 Ogataea nakhonphanomensis
+OTU_159	Fungi	 Basidiomycota	 Cystobasidiomycetes	 unidentified	 unidentified	 Symmetrospora	 Symmetrospora sp. 6/2-4
+OTU_267	Fungi	 Ascomycota	 Pezizomycetes	 Pezizales	 Pyronemataceae	 Heydenia	 Heydenia arietina
+OTU_682	Fungi	 Ascomycota	 Eurotiomycetes	 Eurotiales	 Aspergillaceae	 Penicillium	 Penicillium sp. JCM 28583
+OTU_556	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Didymellaceae	 Neoascochyta	 Neoascochyta paspali
+OTU_2144	Fungi	 Basidiomycota	 Agaricomycetes	 Agaricales	 Strophariaceae	 Hypholoma	 Hypholoma fasciculare
+OTU_1305	Fungi	 Ascomycota	 Dothideomycetes	 unidentified	 unidentified	 Cryomyces	 Cryomyces antarcticus
+OTU_830	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Sclerotiniaceae	 Sclerotinia	 Sclerotinia sclerotiorum
+OTU_433	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Cucurbitariaceae	 Pyrenochaeta	 Pyrenochaeta sp. DTO 305-C6
+OTU_1395	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps monticola
+OTU_477	Fungi	 Basidiomycota	 Microbotryomycetes	 Leucosporidiales	 Leucosporidiaceae	 Leucosporidium	 Leucosporidium fragarium
+OTU_810	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 Acremonium	 Acremonium alternatum
+OTU_1246	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Hypocreaceae	 Trichoderma	 Trichoderma sp. JCM 28589
+OTU_482	Fungi	 Ascomycota	 Sordariomycetes	 Coniochaetales	 Coniochaetaceae	 Coniochaeta	 Coniochaeta mutabilis
+OTU_1840	Fungi	 Ascomycota	 Sordariomycetes	 Sordariales	 Chaetomiaceae	 Chaetomium	 Chaetomium thermophilum
+OTU_652	Fungi	 Ascomycota	 Sordariomycetes	 Diaporthales	 Gnomoniaceae	 Gnomonia	 Gnomonia gnomon
+OTU_387	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 Xylariaceae	 unidentified	 Xylariaceae sp.
+OTU_435	Fungi	 Ascomycota	 Eurotiomycetes	 Chaetothyriales	 Herpotrichiellaceae	 Cladophialophora	 Cladophialophora sp. K111013-6-12
+OTU_33	Fungi	 Basidiomycota	 Malasseziomycetes	 Malasseziales	 unidentified	 unidentified	 uncultured Malassezia
+OTU_225	Fungi	 Basidiomycota	 Microbotryomycetes	 Microbotryales	 Microbotryaceae	 Microbotryum	 Microbotryum lychnidis-dioicae
+OTU_1105	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Epichloe	 Epichloe clarkii
+OTU_2167	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Cladosporiaceae	 Cladosporium	 Cladosporium sp. 6 SG-2017
+OTU_2192	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Saccharomycodaceae	 Hanseniaspora	 Hanseniaspora sp. GJ5M15
+OTU_367	Fungi	 Basidiomycota	 Agaricomycetes	 Hymenochaetales	 unidentified	 Resinicium	 Resinicium bicolor
+OTU_2021	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 Bartaliniaceae	 Bartalinia	 Bartalinia robillardoides
+OTU_1481	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Aigialaceae	 Neoastrosphaeriella	 Neoastrosphaeriella krabiensis
+OTU_588	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Mycosphaerellaceae	 Geastrumia	 Geastrumia sp. N12C11
+OTU_250	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Cladosporiaceae	 Cladosporium	 Cladosporium sp. 6 SG-2017
+OTU_831	Fungi	 Chytridiomycota	 Chytridiomycetes	 Chytridiales	 unidentified	 Zygorhizidium	 Zygorhizidium aff. melosirae KS-2016
+OTU_1102	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 Sporocadaceae	 Discosia	 Discosia sp. WJL-2015a
+OTU_405	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Saccharomycetaceae	 Issatchenkia	 Issatchenkia sp. YM24322
+OTU_1659	Fungi	 Ascomycota	 Sordariomycetes	 unidentified	 Phomatosporaceae	 Phomatospora	 Phomatospora biseriata
+OTU_607	Fungi	 Ascomycota	 Lecanoromycetes	 Pertusariales	 Icmadophilaceae	 Siphulella	 Siphulella coralloidea
+OTU_954	Fungi	 Ascomycota	 Eurotiomycetes	 Chaetothyriales	 unidentified	 Neophaeococcomyces	 Neophaeococcomyces catenatus
+OTU_215	Fungi	 Basidiomycota	 Tremellomycetes	 Filobasidiales	 Piskurozymaceae	 Solicoccozyma	 Solicoccozyma cf. aeria
+OTU_428	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Metapochonia	 Metapochonia bulbillosa
+OTU_339	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Candida	 Candida sp. LCF-90
+OTU_1356	Fungi	 Mucoromycota	 unidentified	 Mucorales	 Rhizopodaceae	 Rhizopus	 Rhizopus sp. GR3-18
+OTU_201	Fungi	 Ascomycota	 Lecanoromycetes	 Ostropales	 Graphidaceae	 Graphis	 Graphis koratensis
+OTU_187	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 Ascomycota sp. PDD-23b-3
+OTU_1552	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Mycosphaerellaceae	 Nothophaeocryptopus	 Nothophaeocryptopus gaeumannii
+OTU_417	Fungi	 Ascomycota	 Sordariomycetes	 Glomerellales	 Plectosphaerellaceae	 Plectosphaerella	 Plectosphaerella sp.
+OTU_324	Fungi	 Ascomycota	 Arthoniomycetes	 Arthoniales	 Arthoniaceae	 Arthonia	 Arthonia sp. Se3
+OTU_857	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Metarhizium	 Metarhizium marquandii
+OTU_375	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Sclerotiniaceae	 unidentified	 Sclerotiniaceae sp.
+OTU_2003	Fungi	 Basidiomycota	 Agaricomycetes	 Cantharellales	 unidentified	 unidentified	 uncultured Minimedusa
+OTU_724	Fungi	 Basidiomycota	 Agaricomycetes	 Sebacinales	 unidentified	 unidentified	 uncultured Sebacinales
+OTU_181	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Helotiaceae	 Crocicreas	 Crocicreas cf. tomentosum F-155
+OTU_924	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 Acremonium	 Acremonium sp. I AG-2015
+OTU_699	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Lemonniera
+OTU_1401	Fungi	 Basidiomycota	 Agaricomycetes	 Corticiales	 Corticiaceae	 unidentified	 Corticiaceae sp. BESC103o
+OTU_644	Fungi	 Ascomycota	 Eurotiomycetes	 Onygenales	 Ascosphaeraceae	 Ascosphaera	 Ascosphaera acerosa
+OTU_264	Fungi	 Basidiomycota	 Pucciniomycetes	 Pucciniales	 Melampsoraceae	 Melampsora	 Melampsora sp. Mel A
+OTU_621	Fungi	 Basidiomycota	 Agaricomycetes	 Hymenochaetales	 Schizoporaceae	 Schizopora	 Schizopora paradoxa
+OTU_875	Fungi	 Ascomycota	 Sordariomycetes	 Coniochaetales	 unidentified	 unidentified	 uncultured Lecythophora
+OTU_1658	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps pazoutovae
+OTU_735	Fungi	 Basidiomycota	 Cystobasidiomycetes	 Cystobasidiales	 Cystobasidiaceae	 Cystobasidium	 Cystobasidium slooffiae
+OTU_22	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Ascomycota
+OTU_1183	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 Acremonium	 Acremonium luzulae
+OTU_1535	Fungi	 Basidiomycota	 Agaricomycetes	 Polyporales	 Polyporaceae	 Megasporoporia	 Megasporoporia minor
+OTU_73	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Bionectriaceae	 Clonostachys	 Clonostachys sp. JCM 28554
+OTU_684	Fungi	 Ascomycota	 Leotiomycetes	 Rhytismatales	 Rhytismataceae	 Colpoma	 Colpoma quercinum
+OTU_550	Fungi	 Ascomycota	 Leotiomycetes	 unidentified	 Myxotrichaceae	 unidentified	 uncultured Geomyces
+OTU_468	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps pazoutovae
+OTU_989	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Dictyosporiaceae	 Jalapriya	 Jalapriya pulchra
+OTU_789	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia reukaufii
+OTU_74	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Trichomonascaceae	 Wickerhamiella	 [Candida] bombiphila
+OTU_2162	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Ascomycota
+OTU_776	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Didymosphaeriaceae	 Montagnula	 Montagnula opulenta
+OTU_257	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Pichiaceae	 Ogataea	 Ogataea nakhonphanomensis
+OTU_1828	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps monticola
+OTU_270	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Trichomonascaceae	 Groenewaldozyma	 Groenewaldozyma salmanticensis
+OTU_2019	Fungi	 Basidiomycota	 Agaricomycetes	 Polyporales	 Irpicaceae	 Ceriporia	 Ceriporia excelsa
+OTU_878	Fungi	 Ascomycota	 Pezizomycetes	 Pezizales	 Morchellaceae	 Disciotis	 Disciotis venosa
+OTU_295	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Dermateaceae	 Neofabraea	 Neofabraea kienholzii
+OTU_61	Fungi	 Basidiomycota	 Malasseziomycetes	 Malasseziales	 Malasseziaceae	 Malassezia	 Malassezia globosa
+OTU_521	Fungi	 Ascomycota	 Dothideomycetes	 Asterotexiales	 unidentified	 unidentified	 Taeniolella sp. Ertz 11026
+OTU_86	Fungi	 Basidiomycota	 Agaricomycetes	 Polyporales	 Polyporaceae	 Trametes	 Trametes cf. versicolor LSPQ-NSM-123
+OTU_721	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Bulleribasidiaceae	 Dioszegia	 Dioszegia sp. DMKU-SP370
+OTU_13	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Sclerotiniaceae	 Botrytis	 Botrytis sp.
+OTU_84	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Starmerella	 [Candida] magnoliae
+OTU_9	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps pazoutovae
+OTU_380	Fungi	 Basidiomycota	 Exobasidiomycetes	 Golubeviales	 Golubeviaceae	 Golubevia	 Golubevia pallescens
+OTU_2174	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Trichomonascaceae	 Blastobotrys	 Blastobotrys sp. NCAIM Y.01959
+OTU_105	Fungi	 Ascomycota	 Leotiomycetes	 Erysiphales	 Erysiphaceae	 Podosphaera	 Podosphaera euphorbiae-helioscopiae
+OTU_897	Fungi	 Ascomycota	 Dothideomycetes	 unidentified	 unidentified	 unidentified	 Dothideomycetes sp. 1 GS-2016
+OTU_70	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia sp.
+OTU_353	Fungi	 Ascomycota	 Eurotiomycetes	 Eurotiales	 Aspergillaceae	 Penicillium	 Penicillium sp. JCM 28575
+OTU_40	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Phaeosphaeriaceae	 Neosetophoma	 Neosetophoma sp. MFLUCC 16-0886
+OTU_332	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Sporormiaceae	 Preussia	 Preussia typharum
+OTU_483	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Stachybotryaceae	 Alfaria	 Alfaria sp. ISM-2017a
+OTU_144	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Dactylonectria	 Dactylonectria torresensis
+OTU_124	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Mycosphaerellaceae	 Septoria	 Septoria stellariae
+OTU_107	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Phaeosphaeriaceae	 Septoriella	 Septoriella allojunci
+OTU_117	Fungi	 Ascomycota	 Leotiomycetes	 Erysiphales	 Erysiphaceae	 Podosphaera	 Podosphaera sp. BL-2014
+OTU_1741	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Ascomycota
+OTU_551	Fungi	 Basidiomycota	 Exobasidiomycetes	 Microstromatales	 unidentified	 Sympodiomycopsis	 Sympodiomycopsis sp.
+OTU_546	Fungi	 Ascomycota	 Sordariomycetes	 Glomerellales	 Glomerellaceae	 Colletotrichum	 Colletotrichum sp. KUC21226
+OTU_710	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Neodevriesiaceae	 Neodevriesia	 Neodevriesia capensis
+OTU_1744	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Pichiaceae	 Ogataea	 Ogataea sp. UFMG-CA48.1
+OTU_457	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 unidentified	 Nectriaceae sp.
+OTU_854	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Periconiaceae	 Periconia	 Periconia cookei
+OTU_1199	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia sp.
+OTU_971	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps monticola
+OTU_247	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Ascomycota
+OTU_567	Fungi	 Ascomycota	 Sordariomycetes	 Diaporthales	 Gnomoniaceae	 Ophiognomonia	 Ophiognomonia melanostyla
+OTU_29	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Candida	 Candida sp. M5
+OTU_1482	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Cryptococcaceae	 Cryptococcus	 Cryptococcus sp. CBS 12229
+OTU_1245	Fungi	 Ascomycota	 Orbiliomycetes	 Orbiliales	 Orbiliaceae	 Monacrosporium	 Monacrosporium elegans
+OTU_659	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Dermateaceae	 Mollisia	 Mollisia sp. 75 OA-2013
+OTU_48	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Fusarium	 Fusarium sp. OTU10 TS-2013
+OTU_1031	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Cladosporiaceae	 Cladosporium	 Cladosporium sp. 5 SG-2017
+OTU_754	Fungi	 Ascomycota	 Lecanoromycetes	 Peltigerales	 Peltigeraceae	 Peltigera	 Peltigera sp. 7b NM-2016
+OTU_139	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 Microdochiaceae	 Microdochium	 Microdochium majus
+OTU_322	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Volutella	 Volutella citrinella
+OTU_769	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Sporormiaceae	 Preussia	 Preussia terricola
+OTU_432	Fungi	 Basidiomycota	 Agaricomycetes	 Agaricales	 Tricholomataceae	 Calyptella	 Calyptella capula
+OTU_446	Fungi	 Ascomycota	 Leotiomycetes	 Erysiphales	 Erysiphaceae	 Erysiphe	 Erysiphe palczewskii
+OTU_1002	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Rhynchogastremataceae	 Papiliotrema	 Papiliotrema frias
+OTU_2114	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Cladosporiaceae	 Cladosporium	 Cladosporium sp. 6 SG-2017
+OTU_1023	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Extremaceae	 Extremus	 Extremus sp. CBS 119436
+OTU_2087	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 unidentified	 unidentified	 Xylariales sp.
+OTU_252	Fungi	 Ascomycota	 Dothideomycetes	 Botryosphaeriales	 Botryosphaeriaceae	 Neofusicoccum	 Neofusicoccum stellenboschiana
+OTU_823	Fungi	 Ascomycota	 Sordariomycetes	 Glomerellales	 Plectosphaerellaceae	 Lectera	 Lectera colletotrichoides
+OTU_701	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Niessliaceae	 Niesslia	 Niesslia exilis
+OTU_2095	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Cladosporiaceae	 Cladosporium	 Cladosporium sp. 5 SG-2017
+OTU_472	Fungi	 Ascomycota	 Sordariomycetes	 Sordariales	 unidentified	 unidentified	 uncultured Sordariales
+OTU_54	Fungi	 Basidiomycota	 Tremellomycetes	 Filobasidiales	 Filobasidiaceae	 Filobasidium	 Filobasidium sp. 7/1-40
+OTU_98	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 Sarocladium	 Sarocladium strictum
+OTU_356	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Dissoconiaceae	 Ramichloridium	 Ramichloridium indicum
+OTU_51	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia sp. 11-1090
+OTU_1179	Fungi	 Ascomycota	 Sordariomycetes	 Microascales	 Microascaceae	 Cephalotrichum	 Cephalotrichum nanum
+OTU_216	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Mycosphaerellaceae	 Acrodontium	 Acrodontium neolitseae
+OTU_88	Fungi	 Ascomycota	 Leotiomycetes	 Erysiphales	 Erysiphaceae	 Blumeria	 Blumeria graminis
+OTU_288	Fungi	 Ascomycota	 Dothideomycetes	 Asterinales	 Asterinaceae	 unidentified	 Asterinaceae sp.
+OTU_702	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Ambrosiozyma	 Ambrosiozyma oregonensis
+OTU_469	Fungi	 Ascomycota	 Lecanoromycetes	 Ostropales	 Porinaceae	 Porina	 Porina aenea
+OTU_725	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia reukaufii
+OTU_908	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Thelonectria	 Thelonectria torulosa
+OTU_331	Fungi	 Ascomycota	 Leotiomycetes	 Erysiphales	 Erysiphaceae	 Golovinomyces	 Golovinomyces cichoracearum
+OTU_1801	Fungi	 Basidiomycota	 Cystobasidiomycetes	 unidentified	 unidentified	 unidentified	 Cystobasidiomycetes sp. MJL-2011
+OTU_41	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Didymellaceae	 Epicoccum	 Epicoccum layuense
+OTU_1022	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Cladosporiaceae	 Cladosporium	 Cladosporium sp. 5 SG-2017
+OTU_834	Fungi	 Ascomycota	 Dothideomycetes	 Venturiales	 Sympoventuriaceae	 Ochroconis	 Ochroconis constricta
+OTU_1523	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps monticola
+OTU_194	Fungi	 Ascomycota	 Lecanoromycetes	 Ostropales	 Graphidaceae	 Ocellularia	 Ocellularia flavostroma
+OTU_15	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 Tetracladium	 Tetracladium sp. J3
+OTU_27	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia gruessii
+OTU_25	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Candida	 Candida argentea
+OTU_517	Fungi	 Ascomycota	 Eurotiomycetes	 Phaeomoniellales	 unidentified	 Phaeomoniella	 Phaeomoniella sp. HBL2005a
+OTU_348	Fungi	 Ascomycota	 Sordariomycetes	 Diaporthales	 Valsaceae	 Cytospora	 Cytospora sp. XF-2013c
+OTU_683	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 unidentified	 unidentified	 Pleosporales sp. A1039
+OTU_635	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Chaetomellaceae	 Chaetomella	 Chaetomella raphigera
+OTU_1476	Fungi	 Chytridiomycota	 Chytridiomycetes	 Rhizophydiales	 unidentified	 unidentified	 uncultured Rhizophydiales
+OTU_955	Fungi	 Basidiomycota	 Exobasidiomycetes	 Exobasidiales	 Cryptobasidiaceae	 Laurobasidium	 Laurobasidium hachijoense
+OTU_1536	Fungi	 Mucoromycota	 unidentified	 Mucorales	 Syncephalastraceae	 Syncephalastrum	 Syncephalastrum sp. CL195
+OTU_114	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Fusarium	 Fusarium sp. JCM 28091
+OTU_1423	Fungi	 Ascomycota	 Sordariomycetes	 Microascales	 Microascaceae	 Parascedosporium	 Parascedosporium tectonae
+OTU_42	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia aff. fructicola sp. 1 NS-2016
+OTU_1720	Fungi	 Ascomycota	 Lecanoromycetes	 Lecanorales	 Lecanoraceae	 Lecanora	 Lecanora perpruinosa
+OTU_38	Fungi	 Basidiomycota	 Tremellomycetes	 Cystofilobasidiales	 Mrakiaceae	 Tausonia	 Tausonia sp. YS 93
+OTU_191	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Mycosphaerellaceae	 Microcyclosporella	 Microcyclosporella sp. CBS 118960
+OTU_97	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 Apiosporaceae	 Arthrinium	 Arthrinium sp. JCM 28452
+OTU_478	Fungi	 Basidiomycota	 Microbotryomycetes	 Leucosporidiales	 Leucosporidiaceae	 Leucosporidium	 Leucosporidium intermedium
+OTU_102	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 unidentified	 Hypocreales sp. B1a0194PD2CC591
+OTU_196	Fungi	 Basidiomycota	 Tremellomycetes	 Cystofilobasidiales	 Cystofilobasidiaceae	 Cystofilobasidium	 Cystofilobasidium capitatum
+OTU_12	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Trichomonascaceae	 unidentified	 uncultured Wickerhamiella
+OTU_777	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 unidentified	 unidentified	 Tremellales sp. CCFEE 5612
+OTU_82	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 unidentified	 uncultured Metschnikowia
+OTU_806	Fungi	 Basidiomycota	 Agaricomycetes	 Cantharellales	 Ceratobasidiaceae	 Rhizoctonia	 Rhizoctonia endophytica
+OTU_66	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Starmerella	 Starmerella meliponinorum
+OTU_154	Fungi	 Ascomycota	 Dothideomycetes	 Botryosphaeriales	 Aplosporellaceae	 Aplosporella	 Aplosporella ruborum
+OTU_442	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Teratosphaeriaceae	 Catenulostroma	 Catenulostroma hermanusense
+OTU_362	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia sp. 415
+OTU_2246	Fungi	 Ascomycota	 Eurotiomycetes	 Eurotiales	 Trichocomaceae	 Talaromyces	 Talaromyces sp.
+OTU_1162	Fungi	 Basidiomycota	 Agaricomycetes	 Polyporales	 Polyporaceae	 Megasporoporia	 Megasporoporia minor
+OTU_268	Fungi	 Ascomycota	 Leotiomycetes	 unidentified	 unidentified	 unidentified	 Leotiomycetes sp. OTU18 TS-2013
+OTU_1298	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Ascomycota
+OTU_46	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Cordycipitaceae	 Beauveria	 Beauveria bassiana
+OTU_911	Fungi	 Ascomycota	 Sordariomycetes	 unidentified	 unidentified	 Acrodictys	 Acrodictys porosiseptata
+OTU_192	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Dissoconiaceae	 Dissoconium	 Dissoconium sp. KY4 19.1B2
+OTU_4	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Saccharomycetaceae	 unidentified	 uncultured Saccharomyces
+OTU_6	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Starmerella	 Starmerella bacillaris
+OTU_544	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Mycosphaerellaceae	 Cercospora	 Cercospora cf. chenopodii
+OTU_2163	Fungi	 Ascomycota	 Leotiomycetes	 Rhytismatales	 Rhytismataceae	 Lophodermium	 Lophodermium piceae
+OTU_326	Fungi	 Basidiomycota	 Agaricomycetes	 Russulales	 Hericiaceae	 Hericium	 Hericium sp. JBS-2013
+OTU_980	Fungi	 Mucoromycota	 unidentified	 Mucorales	 Mucoraceae	 Mucor	 Mucor sp. JCM 28520
+OTU_1013	Fungi	 Ascomycota	 Sordariomycetes	 Microascales	 Halosphaeriaceae	 Oceanitis	 Oceanitis scuticella
+OTU_158	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Mycosphaerellaceae	 Ramularia	 Ramularia sp. B JZG-2016
+OTU_1468	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 Hypoxylaceae	 Hypoxylon	 Hypoxylon crocopeplum
+OTU_44	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Nigrogranaceae	 Nigrograna	 Nigrograna obliqua
+OTU_1830	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps humidiphila
+OTU_1804	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps monticola
+OTU_37	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Saccharomycetaceae	 Zygosaccharomyces	 Zygosaccharomyces sp. NBRC 10672
+OTU_1943	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Hyaloscyphaceae	 unidentified	 Calycina marina
+OTU_1544	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Sclerotiniaceae	 Botrytis	 Botrytis sp.
+OTU_499	Fungi	 Ascomycota	 Sordariomycetes	 Annulatascales	 Annulatascaceae	 unidentified	 Annulatascaceae sp.
+OTU_392	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Rhynchogastremataceae	 Papiliotrema	 Papiliotrema frias
+OTU_364	Fungi	 Ascomycota	 Dothideomycetes	 Dothideales	 unidentified	 unidentified	 Dothideales sp. 80 OA-2013
+OTU_162	Fungi	 Ascomycota	 Lecanoromycetes	 Lecanorales	 Ramalinaceae	 Lecania	 Lecania cyrtella
+OTU_1657	Fungi	 Basidiomycota	 Agaricostilbomycetes	 Agaricostilbales	 unidentified	 Jianyunia	 Jianyunia sakaguchii
+OTU_1477	Fungi	 Ascomycota	 Sordariomycetes	 Sordariales	 Chaetomiaceae	 Chaetomium	 Chaetomium spiculipilium
+OTU_2121	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Didymellaceae	 Epicoccum	 Epicoccum cedri
+OTU_781	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 Scopinella	 Scopinella solani
+OTU_249	Fungi	 Ascomycota	 Eurotiomycetes	 Eurotiales	 unidentified	 unidentified	 Eurotiales sp. IC2
+OTU_2065	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Cordycipitaceae	 Leptobacillium	 Leptobacillium leptobactrum
+OTU_396	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Pichiaceae	 Ogataea	 Ogataea haglerorum
+OTU_224	Fungi	 Ascomycota	 Sordariomycetes	 unidentified	 unidentified	 Dendroclathra	 Dendroclathra sp.
+OTU_983	Fungi	 Ascomycota	 Lecanoromycetes	 Ostropales	 Graphidaceae	 Calenia	 Calenia monospora
+OTU_260	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Bulleribasidiaceae	 Vishniacozyma	 Vishniacozyma dimennae
+OTU_1251	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia reukaufii
+OTU_165	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Massarinaceae	 Massarina	 Massarina rubi
+OTU_729	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 Acremonium	 Acremonium sp. IV AG-2015
+OTU_1150	Fungi	 Ascomycota	 Sordariomycetes	 Sordariales	 Chaetomiaceae	 Subramaniula	 Subramaniula cuniculorum
+OTU_77	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 unidentified	 Cadophora	 Cadophora sp. JCM 28585
+OTU_1517	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia gruessii
+OTU_39	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Pleosporaceae	 Alternaria	 Alternaria sp. RF-2017a
+OTU_461	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Bulleribasidiaceae	 Vishniacozyma	 Vishniacozyma tephrensis
+OTU_297	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 unidentified	 unidentified	 Pleosporales sp. CCF 4378
+OTU_95	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 unidentified	 Robillarda	 Robillarda terrae
+OTU_72	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Candida	 Candida digboiensis
+OTU_75	Fungi	 Basidiomycota	 Exobasidiomycetes	 Golubeviales	 Golubeviaceae	 Golubevia	 Golubevia pallescens
+OTU_694	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Fusarium	 Fusarium sp. 2 MSD-2017
+OTU_2	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Starmerella	 [Candida] bombi
+OTU_585	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 Bartaliniaceae	 Bartalinia	 Bartalinia pondoensis
+OTU_170	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Didymosphaeriaceae	 unidentified	 Didymosphaeriaceae sp.
+OTU_575	Fungi	 Ascomycota	 Pezizomycetes	 Pezizales	 Pezizaceae	 Peziza	 Peziza quelepidotia
+OTU_1729	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 Acremonium	 Acremonium rutilum
+OTU_278	Fungi	 Ascomycota	 Leotiomycetes	 Erysiphales	 Erysiphaceae	 Phyllactinia	 Phyllactinia fraxini
+OTU_636	Fungi	 Ascomycota	 Eurotiomycetes	 Chaetothyriales	 unidentified	 unidentified	 Chaetothyriales sp. BGE-2017a
+OTU_2292	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 unidentified	 unidentified	 Pleosporales sp. 74_PH
+OTU_1241	Fungi	 Ascomycota	 Sordariomycetes	 unidentified	 unidentified	 Acrodictys	 Acrodictys porosiseptata
+OTU_345	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Cladosporiaceae	 Cladosporium	 Cladosporium sp. 6 SG-2017
+OTU_359	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 unidentified	 Hypocreales sp. IOC-1504
+OTU_812	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 Isthmolongispora	 Isthmolongispora ampulliformis
+OTU_2031	Fungi	 Basidiomycota	 Pucciniomycetes	 Pucciniales	 Phragmidiaceae	 Phragmidium	 Phragmidium tuberculatum
+OTU_590	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Stachybotryaceae	 Albifimbria	 Albifimbria viridis
+OTU_149	Fungi	 Ascomycota	 Sordariomycetes	 Ophiostomatales	 Ophiostomataceae	 Ophiostoma	 Ophiostoma cf. floccosum
+OTU_534	Fungi	 Ascomycota	 Eurotiomycetes	 Eurotiales	 Aspergillaceae	 Aspergillus	 Aspergillus aureolus
+OTU_520	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Cordycipitaceae	 unidentified	 Cordycipitaceae sp.
+OTU_731	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 unidentified	 Chalara	 Chalara longipes
+OTU_618	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps monticola
+OTU_11	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Starmerella	 Starmerella sp.
+OTU_1363	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Lophiostomataceae	 Vaginatispora	 Vaginatispora fuckelii
+OTU_59	Fungi	 Basidiomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Basidiomycota
+OTU_127	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Fusarium	 Fusarium cf. oxysporum OP 12.d
+OTU_404	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Massarinaceae	 Massarina	 Massarina sp. MUT 4405
+OTU_1000	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Cladosporiaceae	 Cladosporium	 Cladosporium sp. 6 SG-2017
+OTU_565	Fungi	 Ascomycota	 Sordariomycetes	 unidentified	 unidentified	 Sporidesmium	 Sporidesmium olivaceoconidium
+OTU_119	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Fusarium	 Fusarium sporotrichioides
+OTU_182	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Mycosphaerellaceae	 Ramularia	 Ramularia unterseheri
+OTU_711	Fungi	 Ascomycota	 Leotiomycetes	 Erysiphales	 Erysiphaceae	 Neoerysiphe	 Neoerysiphe galeopsidis
+OTU_1131	Fungi	 Ascomycota	 Sordariomycetes	 Microascales	 Microascaceae	 Microascus	 Microascus micronesiensis
+OTU_529	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Fusarium	 Fusarium avenaceum
+OTU_638	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Pleosporaceae	 Pyrenophora	 Pyrenophora dictyoides
+OTU_109	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Starmerella	 Starmerella bombicola
+OTU_239	Fungi	 Ascomycota	 Pezizomycetes	 Pezizales	 Discinaceae	 Gyromitra	 Gyromitra caroliniana
+OTU_675	Fungi	 Ascomycota	 Dothideomycetes	 unidentified	 Halojulellaceae	 Halojulella	 Halojulella avicenniae
+OTU_1314	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 unidentified	 uncultured Ascomycota
+OTU_292	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Debaryomycetaceae	 Yamadazyma	 [Candida] friedrichii
+OTU_640	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Trichomonascaceae	 Trichomonascus	 Trichomonascus ciferrii
+OTU_354	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 unidentified	 Hypocreales sp.
+OTU_795	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Trematosphaeriaceae	 Trematosphaeria	 Trematosphaeria pertusa
+OTU_374	Fungi	 Ascomycota	 Sordariomycetes	 Microascales	 Microascaceae	 Cephalotrichum	 Cephalotrichum columnare
+OTU_1640	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Bulleribasidiaceae	 Vishniacozyma	 Vishniacozyma aff. victoriae
+OTU_1388	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Candida	 Candida sp. IOY-9
+OTU_548	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Torulaceae	 Dendryphion	 Dendryphion europaeum
+OTU_28	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Debaryomycetaceae	 Yamadazyma	 [Candida] membranifaciens
+OTU_698	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Teichosporaceae	 Magnibotryascoma	 Magnibotryascoma mali
+OTU_1591	Fungi	 Ascomycota	 Dothideomycetes	 Valsariales	 Valsariaceae	 Valsaria	 Valsaria sp. KUC21259
+OTU_287	Fungi	 Ascomycota	 Taphrinomycetes	 Taphrinales	 Protomycetaceae	 Protomyces	 Protomyces inundatus
+OTU_106	Fungi	 Ascomycota	 Lecanoromycetes	 Lecanorales	 Ramalinaceae	 Bacidina	 Bacidina neosquamulosa
+OTU_629	Fungi	 Basidiomycota	 Agaricomycetes	 Agaricales	 Bolbitiaceae	 Agrocybe	 Agrocybe cf. ochracea
+OTU_792	Fungi	 Ascomycota	 Geoglossomycetes	 Geoglossales	 Geoglossaceae	 Trichoglossum	 Trichoglossum rasum
+OTU_50	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Didymellaceae	 Didymella	 Didymella sinensis
+OTU_32	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 [Candida] pimensis
+OTU_35	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Kuraishia	 Kuraishia capsulata
+OTU_8	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Saccharomycodaceae	 Hanseniaspora	 Hanseniaspora sp.
+OTU_7	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Pichiaceae	 Ogataea	 Ogataea nakhonphanomensis
+OTU_14	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Pleosporaceae	 Alternaria	 Alternaria sp. JCM 28581
+OTU_163	Fungi	 Ascomycota	 Sordariomycetes	 Sordariales	 Lasiosphaeriaceae	 Cladorrhinum	 Cladorrhinum samala
+OTU_30	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia sp. 415
+OTU_310	Fungi	 Ascomycota	 Dothideomycetes	 unidentified	 unidentified	 unidentified	 Dothideomycetes sp. 1 GS-2016
+OTU_856	Fungi	 Ascomycota	 Sordariomycetes	 Microascales	 Microascaceae	 Scopulariopsis	 Scopulariopsis brumptii
+OTU_156	Fungi	 Ascomycota	 Eurotiomycetes	 Chaetothyriales	 Herpotrichiellaceae	 Exophiala	 Exophiala sp. SL-2015c
+OTU_125	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia sp. 11-1089
+OTU_128	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Cordycipitaceae	 Simplicillium	 Simplicillium chinense
+OTU_56	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia kunwiensis
+OTU_439	Fungi	 Ascomycota	 Lecanoromycetes	 Caliciales	 Physciaceae	 Physcia	 Physcia dubia
+OTU_101	Fungi	 Ascomycota	 Taphrinomycetes	 Taphrinales	 Protomycetaceae	 Protomyces	 Protomyces inouyei
+OTU_347	Fungi	 Ascomycota	 Eurotiomycetes	 Pyrenulales	 Pyrenulaceae	 Anthracothecium	 Anthracothecium prasinum
+OTU_80	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Fusarium	 Fusarium sp. H4
+OTU_408	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia sp.
+OTU_421	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 [Candida] pimensis
+OTU_2269	Fungi	 Ascomycota	 Lecanoromycetes	 Ostropales	 Graphidaceae	 Calenia	 Calenia monospora
+OTU_2331	Fungi	 Ascomycota	 Taphrinomycetes	 Taphrinales	 Protomycetaceae	 Protomyces	 Protomyces inouyei
+OTU_335	Fungi	 Basidiomycota	 Tremellomycetes	 Cystofilobasidiales	 Mrakiaceae	 Udeniomyces	 Udeniomyces sp. PDD-32b-68
+OTU_819	Fungi	 Basidiomycota	 Tremellomycetes	 Filobasidiales	 Filobasidiaceae	 Naganishia	 Naganishia albida
+OTU_183	Fungi	 Basidiomycota	 Tremellomycetes	 Tremellales	 Bulleribasidiaceae	 Dioszegia	 Dioszegia sp. PDD-14b-1
+OTU_126	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 unidentified	 Sarocladium	 Sarocladium terricola
+OTU_627	Fungi	 Ascomycota	 Leotiomycetes	 unidentified	 unidentified	 unidentified	 Leotiomycetes sp. JCM 28455
+OTU_1951	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Saccharomycetaceae	 Issatchenkia	 Issatchenkia sp. YM24322
+OTU_1557	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps pazoutovae
+OTU_1138	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Clavicipitaceae	 Claviceps	 Claviceps pazoutovae
+OTU_161	Fungi	 Ascomycota	 Sordariomycetes	 Xylariales	 unidentified	 unidentified	 uncultured Microdochium
+OTU_209	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Amorosiaceae	 Angustimassarina	 Angustimassarina premilcurensis
+OTU_1942	Fungi	 Ascomycota	 Lecanoromycetes	 Pertusariales	 Icmadophilaceae	 Siphulella	 Siphulella coralloidea
+OTU_416	Fungi	 Ascomycota	 Leotiomycetes	 Erysiphales	 Erysiphaceae	 Podosphaera	 Podosphaera leucotricha
+OTU_108	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 unidentified	 Ambrosiozyma	 Ambrosiozyma oregonensis
+OTU_898	Fungi	 Ascomycota	 Eurotiomycetes	 Eurotiales	 Aspergillaceae	 Aspergillus	 Aspergillus sp. JCM 28013
+OTU_190	Fungi	 Basidiomycota	 Agaricomycetes	 Agaricales	 Strophariaceae	 Deconica	 Deconica coprophila
+OTU_800	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 Rattania	 Rattania sp.
+OTU_360	Fungi	 Ascomycota	 Dothideomycetes	 Dothideales	 Dothioraceae	 Sydowia	 Sydowia polyspora
+OTU_484	Fungi	 Ascomycota	 Leotiomycetes	 Erysiphales	 Erysiphaceae	 Sawadaea	 Sawadaea sp. MUMH609
+OTU_341	Fungi	 Ascomycota	 Eurotiomycetes	 Chaetothyriales	 Herpotrichiellaceae	 Thysanorea	 Thysanorea papuana
+OTU_646	Fungi	 Ascomycota	 Sordariomycetes	 Sordariales	 Chaetomiaceae	 Dichotomopilus	 Dichotomopilus subfunicola
+OTU_1297	Fungi	 Ascomycota	 Eurotiomycetes	 Eurotiales	 Aspergillaceae	 Aspergillus	 Aspergillus dimorphicus
+OTU_1100	Fungi	 Ascomycota	 Dothideomycetes	 Botryosphaeriales	 Botryosphaeriaceae	 Macrophomina	 Macrophomina phaseolina
+OTU_2271	Fungi	 Chytridiomycota	 Chytridiomycetes	 Rhizophlyctidales	 Sonoraphlyctidaceae	 Sonoraphlyctis	 Sonoraphlyctis sp. PL AUS 033
+OTU_411	Fungi	 Basidiomycota	 Tremellomycetes	 Trichosporonales	 Trichosporonaceae	 Cutaneotrichosporon	 Cutaneotrichosporon moniliiforme
+OTU_431	Fungi	 Ascomycota	 Leotiomycetes	 Erysiphales	 Erysiphaceae	 Erysiphe	 Erysiphe euonymi-japonici
+OTU_888	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Cladosporiaceae	 Cladosporium	 Cladosporium sp. 6 SG-2017
+OTU_1589	Fungi	 Chytridiomycota	 Chytridiomycetes	 Rhizophydiales	 Halomycetaceae	 Paranamyces	 Paranamyces sp.
+OTU_1861	Fungi	 Basidiomycota	 Malasseziomycetes	 Malasseziales	 Malasseziaceae	 Malassezia	 Malassezia sympodialis
+OTU_2324	Fungi	 Mucoromycota	 unidentified	 Mucorales	 Mucoraceae	 Mucor	 Mucor circinelloides
+OTU_1714	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 unidentified	 Massariosphaeria	 Massariosphaeria typhicola
+OTU_476	Fungi	 Basidiomycota	 Agaricomycetes	 Polyporales	 Polyporaceae	 Polyporus	 Polyporus dictyopus
+OTU_1596	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Sporormiaceae	 Westerdykella	 Westerdykella nigra
+OTU_229	Fungi	 Basidiomycota	 Tremellomycetes	 Trichosporonales	 Trichosporonaceae	 Apiotrichum	 Apiotrichum porosum
+OTU_2088	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Stephanonectria	 Stephanonectria sp.
+OTU_752	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia sp.
+OTU_1559	Fungi	 Ascomycota	 Pezizomycetes	 Pezizales	 Caloscyphaceae	 Caloscypha	 Caloscypha incarnata
+OTU_1816	Fungi	 Chytridiomycota	 Chytridiomycetes	 Rhizophlyctidales	 Sonoraphlyctidaceae	 Sonoraphlyctis	 Sonoraphlyctis sp. PL AUS 033
+OTU_490	Fungi	 Ascomycota	 Lecanoromycetes	 Trapeliales	 Trapeliaceae	 Lambiella	 Lambiella caeca
+OTU_597	Fungi	 Basidiomycota	 Cystobasidiomycetes	 Erythrobasidiales	 Erythrobasidiaceae	 Erythrobasidium	 Erythrobasidium elongatum
+OTU_1024	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Neonectria	 Neonectria microconidia
+OTU_779	Fungi	 Basidiomycota	 Tremellomycetes	 Trichosporonales	 Trichosporonaceae	 Trichosporon	 Trichosporon aquatile
+OTU_1021	Fungi	 Ascomycota	 Leotiomycetes	 Helotiales	 Sclerotiniaceae	 Monilinia	 Monilinia polystroma
+OTU_1166	Fungi	 Ascomycota	 Dothideomycetes	 unidentified	 unidentified	 unidentified	 Dothideomycetes sp. genotype 375
+OTU_744	Fungi	 Ascomycota	 unidentified	 unidentified	 unidentified	 Acremonium	 Acremonium sp. TK1-22
+OTU_1230	Fungi	 Ascomycota	 Orbiliomycetes	 Orbiliales	 Orbiliaceae	 Dactylella	 Dactylella clavata
+OTU_1203	Fungi	 Basidiomycota	 Agaricomycetes	 Agaricales	 Bolbitiaceae	 Bolbitius	 Bolbitius coprophilus
+OTU_1085	Fungi	 Basidiomycota	 Agaricomycetes	 Corticiales	 Vuilleminiaceae	 Vuilleminia	 Vuilleminia comedens
+OTU_1983	Fungi	 Ascomycota	 Dothideomycetes	 Capnodiales	 Cladosporiaceae	 Cladosporium	 Cladosporium sp. 6 SG-2017
+OTU_1963	Fungi	 Ascomycota	 Sordariomycetes	 Hypocreales	 Nectriaceae	 Thyronectria	 Thyronectria sinopica
+OTU_847	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Metschnikowiaceae	 Metschnikowia	 Metschnikowia gruessii
+OTU_1956	Fungi	 Basidiomycota	 Agaricomycetes	 Atheliales	 Atheliaceae	 Cristinia	 Cristinia rhenana
+OTU_137	Fungi	 Ascomycota	 Saccharomycetes	 Saccharomycetales	 Debaryomycetaceae	 Hyphopichia	 Hyphopichia pseudoburtonii
+OTU_2193	Fungi	 Ascomycota	 Dothideomycetes	 Pleosporales	 Didymosphaeriaceae	 Spegazzinia	 Spegazzinia sp. yone 279

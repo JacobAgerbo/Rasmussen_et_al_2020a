@@ -1,0 +1,876 @@
+---
+title: "Metabarcoding Analysis Rasmussen et al. 2020a"
+author: "Jacob Agerbo Rasmussen"
+date: "6/18/2020"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup chunk, message=FALSE}
+### Phyloseq
+library(phyloseq); packageVersion("phyloseq")
+library(Biostrings); packageVersion("Biostrings")
+library(ggplot2); packageVersion("ggplot2")
+library(iNEXT); packageVersion("iNEXT")
+library(ape); packageVersion("ape")
+library(vegan); packageVersion("vegan")
+library(dplyr); packageVersion("dplyr")
+library(cowplot); packageVersion("UpSetR")
+library(plyr); packageVersion("plyr")
+library(sjmisc); packageVersion("sjmisc")
+library(data.table); packageVersion("data.table")
+library(metacoder);packageVersion("metacoder")
+library(hilldiv);packageVersion("hilldiv")
+library(car);packageVersion("car")
+library(gridtext);packageVersion("grid")
+library(gridtext);packageVersion("gridtext")
+library(lme4);packageVersion("lme4")
+library(RColorBrewer);packageVersion("RColorBrewer")
+```
+```{r Create palletes}
+
+pallete1 <- c("#1B9E50","#FF8426","#8884b5",
+             "#147D5E","#D95F02","#7570B3")
+
+```
+
+```{r Import and arrange data for iNEXT of OTUs in Trap and Soil samples, message=FALSE}
+## Describe no. samples in each site
+n <- c(4,4,4,4,4,4)
+# iNEXT graphs for Zeale in Traps samples
+setwd("~/Rdata")
+raw.otu <- read.csv("Curated_Zeale_Traps_Table.txt",sep = "\t", row.names = 1)
+tax <- read.csv("Curated_Zeale_Traps_Tax.csv", sep = ",", row.names = 1)
+samdf <- read.csv("Sample_data.txt", sep = "\t", row.names = 1)
+raw.otu <- raw.otu[order(match(rownames(tax),rownames(raw.otu))),]
+row.names(samdf) <- colnames(raw.otu)
+samdf$samplenames <- rownames(samdf)
+otu <- as.matrix(raw.otu)
+raw.otu.ZT <- as.matrix(raw.otu) 
+# Make OTU binary
+otu[otu > 0] <- 1
+
+#Create Phyloseq object
+ZT.ps <- phyloseq(otu_table(otu,taxa_are_rows=TRUE),
+               tax_table(as.matrix(tax)),
+               sample_data(samdf))
+### iNEXT
+iNext.data <- otu
+colnames(iNext.data) <- c(rep("1 Bloom Integrated",4), rep("2 Bloom Organic",4),rep("3 Bloom Biodynamic",4),
+                          rep("4 Harvest Integrated",4), rep("5 Harvest Organic",4),rep("6 Harvest Biodynamic",4))
+iNext.data <- as.matrix(aggregate(t(iNext.data), list(rownames(t(iNext.data))), FUN = "sum", na.rm = TRUE))
+iNext.data <- t(iNext.data)
+colnames(iNext.data) <- iNext.data[1,]
+iNext.data <- iNext.data[-1,]
+class(iNext.data) <- "numeric"
+ZT.iNext.data <- iNext.data[rowSums(iNext.data)>0,]
+ZT.iNext.data <- rbind(n,ZT.iNext.data)
+# iNEXT graphs for D2 in Traps samples
+raw.otu <- read.csv("Curated_Fungi_Traps_Table.txt",sep = "\t", row.names = 1)
+tax <- read.csv("Curated_Fungi_Traps_Tax.txt", sep = "\t", row.names = 1)
+samdf <- read.csv("Sample_data.txt", sep = "\t", row.names = 1)
+raw.otu <- raw.otu[order(match(rownames(tax),rownames(raw.otu))),]
+row.names(samdf) <- colnames(raw.otu)
+samdf$samplenames <- rownames(samdf)
+otu <- as.matrix(raw.otu)
+raw.otu.DT <- as.matrix(raw.otu)
+# Make OTU binary
+otu[otu > 0] <- 1
+
+#Create Phyloseq object
+DT.ps <- phyloseq(otu_table(otu,taxa_are_rows=TRUE),
+               tax_table(as.matrix(tax)),
+               sample_data(samdf))
+
+iNext.data <- otu
+colnames(iNext.data) <- c(rep("1 Bloom Integrated",4), rep("2 Bloom Organic",4),rep("3 Bloom Biodynamic",4),
+                          rep("4 Harvest Integrated",4), rep("5 Harvest Organic",4),rep("6 Harvest Biodynamic",4))
+iNext.data <- as.matrix(aggregate(t(iNext.data), list(rownames(t(iNext.data))), FUN = "sum", na.rm = TRUE))
+iNext.data <- t(iNext.data)
+colnames(iNext.data) <- iNext.data[1,]
+iNext.data <- iNext.data[-1,]
+class(iNext.data) <- "numeric"
+DT.iNext.data <- iNext.data[rowSums(iNext.data)>0,]
+DT.iNext.data <- rbind(n,DT.iNext.data)
+# iNEXT graphs for Zeale in Soil samples
+
+raw.otu <- read.csv("Curated_Zeale_Soil_Table.txt",sep = "\t", row.names = 1)
+tax <- read.csv("Curated_Zeale_Soil_Tax.txt", sep = "\t", row.names = 1)
+samdf <- read.csv("Sample_data.txt", sep = "\t", row.names = 1)
+raw.otu <- raw.otu[match(rownames(tax),rownames(raw.otu)),]
+row.names(samdf) <- colnames(raw.otu)
+samdf$samplenames <- rownames(samdf)
+otu <- as.matrix(raw.otu)
+raw.otu.ZS <- as.matrix(raw.otu)
+# Make OTU binary
+otu[otu > 0] <- 1
+
+#Create Phyloseq object
+ZS.ps <- phyloseq(otu_table(otu,taxa_are_rows=TRUE),
+               tax_table(as.matrix(tax)),
+               sample_data(samdf))
+### iNEXT
+iNext.data <- otu
+colnames(iNext.data) <- c(rep("1 Bloom Integrated",4), rep("2 Bloom Organic",4),rep("3 Bloom Biodynamic",4),
+                          rep("4 Harvest Integrated",4), rep("5 Harvest Organic",4),rep("6 Harvest Biodynamic",4))
+iNext.data <- as.matrix(aggregate(t(iNext.data), list(rownames(t(iNext.data))), FUN = "sum", na.rm = TRUE))
+iNext.data <- t(iNext.data)
+colnames(iNext.data) <- iNext.data[1,]
+iNext.data <- iNext.data[-1,]
+class(iNext.data) <- "numeric"
+ZS.iNext.data <- iNext.data[rowSums(iNext.data)>0,]
+ZS.iNext.data <- rbind(n,ZS.iNext.data)
+# iNEXT graphs for D2 in Soil samples
+
+raw.otu <- read.csv("Curated_Fungi_Soil_Table.txt",sep = "\t", row.names = 1)
+tax <- read.csv("Curated_Fungi_Soil_Tax.txt", sep = "\t", row.names = 1)
+samdf <- read.csv("Sample_data.txt", sep = "\t", row.names = 1)
+raw.otu <- raw.otu[order(match(rownames(tax),colnames(raw.otu))),]
+samdf <- samdf[-23,]
+row.names(samdf) <- colnames(raw.otu)
+samdf$samplenames <- rownames(samdf)
+otu <- as.matrix(raw.otu)
+raw.otu.DS <- as.matrix(raw.otu)
+# Make OTU binary
+otu[otu > 0] <- 1
+#Create Phyloseq object
+DS.ps <- phyloseq(otu_table(otu,taxa_are_rows=TRUE),
+               tax_table(as.matrix(tax)),
+               sample_data(samdf))
+
+
+### iNEXT
+iNext.data <- otu
+colnames(iNext.data) <- c(rep("1 Bloom Integrated",4), rep("2 Bloom Organic",4),rep("3 Bloom Biodynamic",4),
+                          rep("4 Harvest Integrated",4), rep("5 Harvest Organic",4),rep("6 Harvest Biodynamic",3))
+iNext.data <- as.matrix(aggregate(t(iNext.data), list(rownames(t(iNext.data))), FUN = "sum", na.rm = TRUE))
+iNext.data <- t(iNext.data)
+colnames(iNext.data) <- iNext.data[1,]
+iNext.data <- iNext.data[-1,]
+class(iNext.data) <- "numeric"
+DS.iNext.data <- iNext.data[rowSums(iNext.data)>0,]
+n <- c(4,4,4,4,4,3)
+DS.iNext.data <- rbind(n, DS.iNext.data)
+
+## Clean up a bit!
+rm(otu)
+rm(raw.otu)
+rm(tax)
+rm(samdf)
+rm(iNext.data)
+```
+```{r Create iNEXT Elements OTUs in Trap and Soil samples, message=FALSE}
+ZT.out <- iNEXT(ZT.iNext.data, q=0, datatype="incidence_freq", endpoint = length(ZT.iNext.data)/4)
+DT.out <- iNEXT(DT.iNext.data, q=0, datatype="incidence_freq", endpoint = length(DT.iNext.data)/4)
+ZS.out <- iNEXT(ZS.iNext.data, q=0, datatype="incidence_freq", endpoint = length(ZS.iNext.data)/4)
+DS.out <- iNEXT(DS.iNext.data, q=0, datatype="incidence_freq", endpoint = length(DS.iNext.data)/4)
+
+Total_ZS <- estimateD(ZS.iNext.data, datatype="incidence_freq", base="coverage", level=0.95) 
+test <- (colSums(ZT.iNext.data)-4)/4
+
+
+```
+```{r rarecurves}
+par(mfrow=c(2,2))
+rare.ZT <- rarecurve(t(otu_table(raw.otu.ZT, taxa_are_rows = TRUE)), step=50, cex=1)
+#grid.text("Data from Zeale in Trap samples",x = 0.1, y=0.95, gp=gpar(fontsize=12))
+rare.DT <- rarecurve(t(otu_table(raw.otu.DT, taxa_are_rows = TRUE)), step=50, cex=1)
+#grid.text("Data from D2 in Trap samples",x = 0.1, y=0.95, gp=gpar(fontsize=12))
+rare.ZS <- rarecurve(t(otu_table(raw.otu.ZS, taxa_are_rows = TRUE)), step=50, cex=1)
+#grid.text("Data from Zeale in Soil samples",x = 0.1, y=0.95, gp=gpar(fontsize=12))
+rare.DS <- rarecurve(t(otu_table(raw.otu.DS, taxa_are_rows = TRUE)), step=50, cex=1)
+#grid.text("Data from D2 in Soil samples",x = 0.1, y=0.95, gp=gpar(fontsize=12))
+```
+```{r Plot iNEXT Richness of OTUs in Trap and Soil samples, message=FALSE}
+ZT.plot <- ggiNEXT(ZT.out, type=3, facet.var="none", color.var="site", grey=FALSE) +
+  theme_bw(base_size = 18) +
+  theme(legend.position="none") + scale_shape_manual(values=c(19,19,19, 18,18,18)) +
+  ggtitle("Zeale OTUs in Trap samples") + 
+  ylab("Cumulative Species Diversity") +
+  scale_fill_manual(values=pallete1) + 
+  scale_color_manual(values=pallete1)
+
+DT.plot <- ggiNEXT(DT.out, type=3, facet.var="none", color.var="site", grey=FALSE) +
+  theme_bw(base_size = 18) +
+  theme(legend.position="none") + scale_shape_manual(values=c(19,19,19, 18,18,18)) + 
+  theme(axis.title.y = element_blank()) +
+  ggtitle("D2 OTUs in Trap samples") + 
+  scale_fill_manual(values=pallete1) + 
+  scale_color_manual(values=pallete1)
+
+ZS.plot <- ggiNEXT(ZS.out, type=3, facet.var="none", color.var="site", grey=FALSE) +
+  theme_bw(base_size = 18) +
+  theme(legend.position="none") + scale_shape_manual(values=c(19,19,19, 18,18,18)) + 
+  theme(axis.title.y = element_blank()) +
+  ggtitle("Zeale OTUs in Soil samples") + 
+  scale_fill_manual(values=pallete1) + 
+  scale_color_manual(values=pallete1)
+
+DS.plot <- ggiNEXT(DS.out, type=3, facet.var="none", color.var="site", grey=FALSE) +
+  theme_bw(base_size = 18) +
+  theme(legend.position="none") + scale_shape_manual(values=c(19,19,19, 18,18,18)) +
+  theme(axis.title.y = element_blank()) +
+  ggtitle("D2 OTUs in Soil samples") + 
+  scale_fill_manual(values=pallete1) + 
+  scale_color_manual(values=pallete1)
+
+grobs.plot <- ggiNEXT(DS.out, type=3, facet.var="none", color.var="site", grey=FALSE) +
+  theme_bw(base_size = 18) +
+  theme(legend.position="right") + scale_shape_manual(values=c(19,19,19, 18,18,18)) +
+  ggtitle("D2 OTUs in Soil samples") + 
+  scale_fill_manual(values=pallete1) + 
+  scale_color_manual(values=pallete1)
+```
+```{r plot iNEXT Diversity of Sampling Coverage}
+grobs <- ggplotGrob(grobs.plot)$grobs
+legend <- grobs[[which(sapply(grobs, function(x) x$name) == "guide-box")]]
+# build grid without legends
+pgrid <- plot_grid(ZT.plot, DT.plot, ZS.plot, DS.plot, nrow = 1, labels = c("A", "B", "C","D"))
+# add legend
+iNEXT.plot <- plot_grid(pgrid, legend, ncol = 2, rel_widths = c(1, .21))
+
+#plot
+iNEXT.plot
+
+```
+```{r Richness analysis, using hilldiv}
+for (q in 0){
+ZT.hill <- hill_div(raw.otu.ZT, qvalue=as.numeric(q))
+DT.hill <- hill_div(raw.otu.DT, qvalue=as.numeric(q))
+ZS.hill <- hill_div(raw.otu.ZS, qvalue=as.numeric(q))
+DS.hill <- hill_div(raw.otu.DS, qvalue=as.numeric(q))
+DS.hill <- c(DS.hill, "X040311"=NA)
+
+hill <- as.data.frame(cbind(ZT.hill,DT.hill,ZS.hill,DS.hill))
+hill$Management <- c(rep("Integrated Bloom", 4), rep("Organic Bloom", 4), rep("Biodynamic Bloom", 4),
+                     rep("Integrated Harvest", 4), rep("Organic Harvest", 4), rep("Biodynamic Harvest", 4))
+
+hill$Management <- factor(hill$Management, levels = c("Integrated Bloom","Organic Bloom", "Biodynamic Bloom",
+                     "Integrated Harvest","Organic Harvest", "Biodynamic Harvest"))
+
+hill$SamplingTime <- c(rep("Bloom",12),rep("Harvest",12))
+hill$Block <- c(rep(as.character(1:4),6))
+colnames(hill) <- c("Zeale_Traps","D2_Traps","Zeale_Soil","D2_Soil",
+                    "Management", "SamplingTime", "Block")
+hill_stacked <- melt(hill)
+colnames(hill_stacked) <- c("Management", "SamplingTime", "Block", "SampleType", "Richness")
+
+#write.csv(hill_stacked,paste("hill_number_German_MS","q_",q,".csv"))
+}
+```
+```{r plot richness plot}
+# create color palette
+pallete <- c("#1B9E50","#FF8426","#8884b5",
+             "#147D5E","#D95F02","#7570B3")
+
+ZT.rich.plot <- ggplot(hill, aes(x=Management, y=Zeale_Traps, color = Management, fill = Management)) + 
+  geom_boxplot() +
+  scale_fill_manual(values = pallete) + 
+  scale_color_manual(values=c("#17202A", "#17202A", "#17202A",
+                             "#17202A","#17202A","#17202A"))+ 
+  theme_classic() + theme(legend.position="none") +
+  labs(y="Richness", x = "") +
+  ggtitle("Zeale OTUs in Trap Samples") +
+  theme(axis.text.x = element_text(face = "bold", angle = 60, hjust = 1))
+
+DT.rich.plot <- ggplot(hill, aes(x=Management, y=D2_Traps, color = Management, fill = Management)) + 
+  geom_boxplot() +
+  scale_fill_manual(values = pallete) + 
+  scale_color_manual(values=c("#17202A", "#17202A", "#17202A",
+                             "#17202A","#17202A","#17202A"))+ 
+  theme_classic() + theme(legend.position="none") +
+  labs(y="", x = "") +
+  ggtitle("D2 OTUs in Trap Samples") +
+  theme(axis.text.x = element_text(face = "bold", angle = 60, hjust = 1))
+
+ZS.rich.plot <- ggplot(hill, aes(x=Management, y=Zeale_Soil, color = Management, fill = Management)) + 
+  geom_boxplot() +
+  scale_fill_manual(values = pallete) + 
+  scale_color_manual(values=c("#17202A", "#17202A", "#17202A",
+                             "#17202A","#17202A","#17202A"))+ 
+  theme_classic() + theme(legend.position="none") +
+  labs(y="", x = "") +
+  ggtitle("Zeale OTUs in Soil Samples") +
+  theme(axis.text.x = element_text(face = "bold", angle = 60, hjust = 1))
+  
+DS.rich.plot <- ggplot(hill, aes(x=Management, y=D2_Soil, color = Management, fill = Management)) + 
+  geom_boxplot() +
+  scale_fill_manual(values = pallete) + 
+  scale_color_manual(values=c("#17202A", "#17202A", "#17202A",
+                             "#17202A","#17202A","#17202A"))+ 
+  theme_classic() + theme(legend.position="none") +
+  labs(y="", x = "") +
+  ggtitle("D2 OTUs in Soil Samples") +
+  theme(axis.text.x = element_text(face = "bold",  angle = 60, hjust = 1))
+
+
+grobs.rich.plot <- ggplot(hill, aes(x=Management, y=D2_Soil, color = Management, fill = Management)) + 
+  geom_boxplot() +
+  theme(legend.position="right") +
+  ggtitle("D2 OTUs in Soil samples") + 
+  scale_fill_manual(values=pallete1) + 
+  scale_color_manual(values=pallete1)
+
+grobs <- ggplotGrob(grobs.rich.plot)$grobs
+legend <- grobs[[which(sapply(grobs, function(x) x$name) == "guide-box")]]
+# build grid without legends
+pgrid <- plot_grid(ZT.rich.plot,DT.rich.plot,ZS.rich.plot,DS.rich.plot, nrow = 1, labels = c("E", "F", "G", "H"))
+# add legend
+rich.plot <- plot_grid(pgrid, legend, ncol = 2, rel_widths = c(1, .21))
+
+
+```
+```{r PERMANOVA analysis, using vegan}
+
+set.seed(36) #reproducible results
+## Zeale in Traps
+ZT.dist<-vegdist(as.matrix(t(raw.otu.ZT)), method = 'jaccard')
+
+#Management <- c(rep("Bloom Integrated", 4), rep("Bloom Organic", 4), rep("Bloom Biodynamic", 4),
+#                     rep("Harvest Integrated", 4), rep("Harvest Organic", 4), rep("Harvest Biodynamic", 4))
+Management <- c(rep("Integrated", 4), rep("Organic", 4), rep("Biodynamic", 4),
+                     rep("Integrated", 4), rep("Organic", 4), rep("Biodynamic", 4))
+SamplingTime <- c(rep("Bloom",12),rep("Harvest",12))
+Block <- c(rep(as.character(1:4),6))
+ZT <- as.data.frame(cbind(Management,SamplingTime,Block))
+
+ZT.div<-adonis2(ZT.dist~Management*SamplingTime+Block, data=ZT,
+                permutations = 999, method="bray", strata="PLOT")
+ZT.div
+
+
+# D2 in traps
+DT.dist<-vegdist(as.matrix(t(raw.otu.DT)), method = 'jaccard')
+
+Management <- c(rep("Integrated", 4), rep("Organic", 4), rep("Biodynamic", 4),
+                     rep("Integrated", 4), rep("Organic", 4), rep("Biodynamic", 4))
+SamplingTime <- c(rep("Bloom",12),rep("Harvest",12))
+Block <- c(rep(as.character(1:4),6))
+DT <- as.data.frame(cbind(Management,SamplingTime,Block))
+
+DT.div<-adonis2(DT.dist~Management*SamplingTime+Block, data=DT,
+                permutations = 999, method="bray", strata="PLOT")
+DT.div
+
+# Zeale in Soil
+ZS.dist<-vegdist(as.matrix(t(raw.otu.ZS)), method = 'jaccard')
+
+Management <- c(rep("Integrated", 4), rep("Organic", 4), rep("Biodynamic", 4),
+                     rep("Integrated", 4), rep("Organic", 4), rep("Biodynamic", 4))
+SamplingTime <- c(rep("Bloom",12),rep("Harvest",12))
+Block <- c(rep(as.character(1:4),6))
+ZS <- as.data.frame(cbind(Management,SamplingTime,Block))
+
+ZS.div<-adonis2(ZS.dist~Management*SamplingTime+Block, data=ZS,
+                permutations = 999, method="bray", strata="PLOT")
+ZS.div
+
+
+
+### Fungi in soil
+DS.dist<-vegdist(as.matrix(t(raw.otu.DS)), method = 'jaccard')
+
+Management <- c(rep("Integrated", 4), rep("Organic", 4), rep("Biodynamic", 4),
+                     rep("Integrated", 4), rep("Organic", 4), rep("Biodynamic", 3))
+SamplingTime <- c(rep("Bloom",12),rep("Harvest",11))
+Block <- c(rep(as.character(1:4),5),rep(as.character(1:3),1))
+DS <- as.data.frame(cbind(Management,SamplingTime,Block))
+
+DS.div<-adonis2(DS.dist~Management*SamplingTime+Block, data=DS,
+                permutations = 999, method="bray", strata="PLOT")
+DS.div
+
+
+Dist <- rbind(ZT.div,DT.div,ZS.div,DS.div)
+Dist$Sample <- c(rep("Zeale Traps", 6),rep("D2 Traps", 6),rep("Zeale Soil", 6),rep("D2 Soil", 6))
+
+write.csv(Dist, "PERMANOVA_out.csv")
+```
+```{r Phyloseq NMDS}
+
+## Ordinations
+dist = "jaccard"
+ord_meths = c("NMDS")
+
+### Zeale in traps
+plist = llply(as.list(ord_meths), function(i, physeq, dist){
+  ordi = ordinate(physeq, method=i, distance=dist)
+  plot_ordination(physeq, ordi, "samples", color="Management")
+}, ZT.ps, dist)
+names(plist) <- ord_meths
+pdataframe = ldply(plist, function(x){
+  df = x$data[, 1:2]
+  colnames(df) = c("Axis_1", "Axis_2")
+  return(cbind(df, x$data))
+})
+names(pdataframe)[1] = "method"
+
+p = ggplot(pdataframe, aes(Axis_1, Axis_2, color=Management, shape=SampleTime, fill=Management))
+p = p + scale_fill_brewer(type="qual", palette="Dark2")
+p = p + scale_colour_brewer(type="qual", palette="Dark2")
+p = p + geom_point(size=4) + geom_polygon(aes(alpha = 0.25)) +
+  theme(axis.title.y = element_blank()) +
+  theme(axis.title.x = element_blank())
+ord.ZT = p + facet_wrap(~method, scales="free") +
+    theme(legend.position="none") +
+    ggtitle("Zeale OTUs in Trap samples")
+
+
+### D2 in traps
+plist = llply(as.list(ord_meths), function(i, physeq, dist){
+  ordi = ordinate(physeq, method=i, distance=dist)
+  plot_ordination(physeq, ordi, "samples", color="Management")
+}, DT.ps, dist)
+names(plist) <- ord_meths
+pdataframe = ldply(plist, function(x){
+  df = x$data[, 1:2]
+  colnames(df) = c("Axis_1", "Axis_2")
+  return(cbind(df, x$data))
+})
+names(pdataframe)[1] = "method"
+
+p = ggplot(pdataframe, aes(Axis_1, Axis_2, color=Management, shape=SampleTime, fill=Management))
+p = p + scale_fill_brewer(type="qual", palette="Dark2")
+p = p + scale_colour_brewer(type="qual", palette="Dark2")
+p = p + geom_point(size=4) + geom_polygon(aes(alpha = 0.25)) +
+  theme(axis.title.y = element_blank()) +
+  theme(axis.title.x = element_blank())
+ord.DT = p + facet_wrap(~method, scales="free") +
+    theme(legend.position="none") +   ggtitle("Fungi OTUs in Trap samples")
+
+### Zeale in soil
+plist = llply(as.list(ord_meths), function(i, physeq, dist){
+  ordi = ordinate(physeq, method=i, distance=dist)
+  plot_ordination(physeq, ordi, "samples", color="Management")
+}, ZS.ps, dist)
+names(plist) <- ord_meths
+pdataframe = ldply(plist, function(x){
+  df = x$data[, 1:2]
+  colnames(df) = c("Axis_1", "Axis_2")
+  return(cbind(df, x$data))
+})
+names(pdataframe)[1] = "method"
+
+p = ggplot(pdataframe, aes(Axis_1, Axis_2, color=Management, shape=SampleTime, fill=Management))
+p = p + scale_fill_brewer(type="qual", palette="Dark2")
+p = p + scale_colour_brewer(type="qual", palette="Dark2")
+p = p + geom_point(size=4) + geom_polygon(aes(alpha = 0.25)) +
+  theme(axis.title.y = element_blank()) +
+  theme(axis.title.x = element_blank())
+ord.ZS = p + facet_wrap(~method, scales="free") +
+    theme(legend.position="none") +
+    ggtitle("Zeale OTUs in Soil samples")
+
+### D2 in soil
+plist = llply(as.list(ord_meths), function(i, physeq, dist){
+  ordi = ordinate(physeq, method=i, distance=dist)
+  plot_ordination(physeq, ordi, "samples", color="Management")
+}, DS.ps, dist)
+names(plist) <- ord_meths
+pdataframe = ldply(plist, function(x){
+  df = x$data[, 1:2]
+  colnames(df) = c("Axis_1", "Axis_2")
+  return(cbind(df, x$data))
+})
+names(pdataframe)[1] = "method"
+
+p = ggplot(pdataframe, aes(Axis_1, Axis_2, color=Management, shape=SampleTime, fill=Management))
+p = p + scale_fill_brewer(type="qual", palette="Dark2")
+p = p + scale_colour_brewer(type="qual", palette="Dark2")
+p = p + geom_point(size=4) + geom_polygon(aes(alpha = 0.25)) +
+  theme(axis.title.y = element_blank()) +
+  theme(axis.title.x = element_blank())
+grobs.ord.plot = p + facet_wrap(~method, scales="free")
+ord.DS = p + facet_wrap(~method, scales="free") + 
+  theme(legend.position="none") +
+    ggtitle("D2 OTUs in Soil samples")
+
+rm(p)
+```
+```{r plot ordination plot}
+grobs <- ggplotGrob(grobs.ord.plot)$grobs
+legend <- grobs[[which(sapply(grobs, function(x) x$name) == "guide-box")]]
+# build grid without legends
+pgrid <- plot_grid(ord.ZT, ord.DT, ord.ZS, ord.DS, nrow = 1, labels = c("I", "J", "K", "L"))
+# add legend
+ord.plot <- plot_grid(pgrid, legend, ncol = 2, rel_widths = c(1, .21))
+
+# write PDF
+ord.plot
+
+```
+```{r relative abbundance plot}
+#Zeale in Traps samples
+raw.otu <- read.csv("Curated_Zeale_Traps_Table.txt",sep = "\t", row.names = 1)
+tax <- read.csv("Curated_Zeale_Traps_Tax.csv", sep = ",", row.names = 1)
+samdf <- read.csv("Sample_data.txt", sep = "\t", row.names = 1)
+raw.otu <- raw.otu[order(match(rownames(tax),rownames(raw.otu))),]
+row.names(samdf) <- colnames(raw.otu)
+samdf$samplenames <- rownames(samdf)
+otu <- as.matrix(raw.otu)
+raw.otu.ZT <- as.matrix(raw.otu) 
+#Create Phyloseq object
+ZTr.ps <- phyloseq(otu_table(otu,taxa_are_rows=TRUE),
+               tax_table(as.matrix(tax)),
+               sample_data(samdf))
+#D2 in Traps samples
+raw.otu <- read.csv("Curated_Fungi_Traps_Table.txt",sep = "\t", row.names = 1)
+tax <- read.csv("Curated_Fungi_Traps_Tax.txt", sep = "\t", row.names = 1)
+samdf <- read.csv("Sample_data.txt", sep = "\t", row.names = 1)
+raw.otu <- raw.otu[order(match(rownames(tax),rownames(raw.otu))),]
+row.names(samdf) <- colnames(raw.otu)
+samdf$samplenames <- rownames(samdf)
+otu <- as.matrix(raw.otu)
+raw.otu.DT <- as.matrix(raw.otu)
+#Create Phyloseq object
+DTr.ps <- phyloseq(otu_table(otu,taxa_are_rows=TRUE),
+               tax_table(as.matrix(tax)),
+               sample_data(samdf))
+#Zeale in Soil samples
+raw.otu <- read.csv("Curated_Zeale_Soil_Table.txt",sep = "\t", row.names = 1)
+tax <- read.csv("Curated_Zeale_Soil_Tax.txt", sep = "\t", row.names = 1)
+samdf <- read.csv("Sample_data.txt", sep = "\t", row.names = 1)
+raw.otu <- raw.otu[match(rownames(tax),rownames(raw.otu)),]
+row.names(samdf) <- colnames(raw.otu)
+samdf$samplenames <- rownames(samdf)
+otu <- as.matrix(raw.otu)
+raw.otu.ZS <- as.matrix(raw.otu)
+#Create Phyloseq object
+ZSr.ps <- phyloseq(otu_table(otu,taxa_are_rows=TRUE),
+               tax_table(as.matrix(tax)),
+               sample_data(samdf))
+#D2 in Soil samples
+raw.otu <- read.csv("Curated_Fungi_Soil_Table.txt",sep = "\t", row.names = 1)
+tax <- read.csv("Curated_Fungi_Soil_Tax.txt", sep = "\t", row.names = 1)
+samdf <- read.csv("Sample_data.txt", sep = "\t", row.names = 1)
+raw.otu <- raw.otu[order(match(rownames(tax),colnames(raw.otu))),]
+
+# Removing 1 sample from metadata
+samdf <- samdf[-23,]
+row.names(samdf) <- colnames(raw.otu)
+samdf$samplenames <- rownames(samdf)
+otu <- as.matrix(raw.otu)
+raw.otu.DS <- as.matrix(raw.otu)
+#Create Phyloseq object
+DSr.ps <- phyloseq(otu_table(otu,taxa_are_rows=TRUE),
+               tax_table(as.matrix(tax)),
+               sample_data(samdf))
+```
+```{r plot abundance}
+nZ = 50
+nD = 50
+ps.prop <- transform_sample_counts(ZTr.ps, function(OTU) OTU/sum(OTU))
+TopNOTUs = names(sort(taxa_sums(ps.prop), TRUE)[1:nZ])
+ZT.TopNOTUs = prune_taxa(TopNOTUs, ps.prop)
+ZT.abu.plot <- plot_bar(ZT.TopNOTUs,"Management", fill = "Class", facet_grid = ~SampleTime) + theme(legend.position="bottom") + labs(title = "Relative abundance of Zeale OTUs in trap samples")
+table(ZT.abu.plot$data$Class) 
+
+ps.prop <- transform_sample_counts(DTr.ps, function(OTU) OTU/sum(OTU))
+TopNOTUs = names(sort(taxa_sums(ps.prop), TRUE)[1:nD])
+DT.TopNOTUs = prune_taxa(TopNOTUs, ps.prop)
+DT.abu.plot <- plot_bar(DT.TopNOTUs,"Management", fill = "Class", facet_grid = ~SampleTime) + theme(legend.position="bottom") + labs(title = "Relative abundance of D2 OTUs in traps samples")
+table(DT.abu.plot$data$Class)
+
+
+ps.prop <- transform_sample_counts(ZSr.ps, function(OTU) OTU/sum(OTU))
+TopNOTUs = names(sort(taxa_sums(ps.prop), TRUE)[1:nZ])
+ZS.TopNOTUs = prune_taxa(TopNOTUs, ps.prop)
+ZS.abu.plot <- plot_bar(ZS.TopNOTUs,"Management", fill = "Class", facet_grid = ~SampleTime) + theme(legend.position="bottom") + labs(title = "Relative abundance of D2 OTUs in traps samples")
+table(ZS.abu.plot$data$Class)
+
+
+ps.prop <- transform_sample_counts(DSr.ps, function(OTU) OTU/sum(OTU))
+TopNOTUs = names(sort(taxa_sums(ps.prop), TRUE)[1:nD])
+DS.TopNOTUs = prune_taxa(TopNOTUs, ps.prop)
+DS.abu.plot <- plot_bar(DS.TopNOTUs,"Management", fill = "Class", facet_grid = ~SampleTime) + theme(legend.position="bottom")+ labs(title = "Relative abundance of D2 OTUs in soil samples")
+
+grobs.ZT <- ZT.abu.plot
+grobs.ZS <- ZS.abu.plot
+grobs.DT <- DT.abu.plot
+grobs.DS <- DS.abu.plot
+
+grobs <- ggplotGrob(grobs.ZT)$grobs
+legend.ZT <- grobs[[which(sapply(grobs, function(x) x$name) == "guide-box")]]
+grobs <- ggplotGrob(grobs.ZS)$grobs
+legend.ZS <- grobs[[which(sapply(grobs, function(x) x$name) == "guide-box")]]
+
+grobs <- ggplotGrob(grobs.DT)$grobs
+legend.DT <- grobs[[which(sapply(grobs, function(x) x$name) == "guide-box")]]
+grobs <- ggplotGrob(grobs.DS)$grobs
+legend.DS <- grobs[[which(sapply(grobs, function(x) x$name) == "guide-box")]]
+
+# build grid without legends
+pgrid.ZT <- plot_grid(ZT.abu.plot + theme(legend.position="none"),
+                   legend.ZT, labels = c("A", ""), rel_widths = c(1,0.75),
+                   ncol = 1)
+
+pgrid.DT <- plot_grid(DT.abu.plot + theme(legend.position="none"),
+                   legend.DT, labels = c("B", ""), rel_widths = c(1,0.75),
+                   ncol = 1)
+
+pgrid.ZS <- plot_grid(ZS.abu.plot + theme(legend.position="none"),
+                   legend.ZS, labels = c("C", ""), rel_widths = c(1,0.75),
+                   ncol = 1)
+
+pgrid.DS <- plot_grid(DS.abu.plot + theme(legend.position="none"),
+                   legend.DS, labels = c("D", ""), rel_widths = c(1,0.75),
+                   ncol = 1)
+
+
+# add legend
+abu.plot <- plot_grid(pgrid.ZT,
+                      pgrid.DT, 
+                      pgrid.ZS,
+                      pgrid.DS,
+                      nrow = 2, rel_widths = c(1, 1,1,1))
+abu.plot
+```
+```{r Create metacoder dataseets, message=FALSE}
+### Create meacodeer environment
+
+#Zeale in Traps
+ZT.TopNOTUs.bloom <- subset_samples(ZT.TopNOTUs, SampleTime=="Bloom")
+ZT.TopNOTUs.harvest <- subset_samples(ZT.TopNOTUs, SampleTime=="Harvest")
+
+
+ZT.mc.bloom <- parse_phyloseq(ZT.TopNOTUs.bloom)
+ZT.mc.harvest <- parse_phyloseq(ZT.TopNOTUs.harvest)
+
+# D2 in Traps
+DT.TopNOTUs.bloom <- subset_samples(DT.TopNOTUs, SampleTime=="Bloom")
+tax_table(DT.TopNOTUs.bloom) <- tax_table(DT.TopNOTUs.bloom)[,1:6]
+DT.TopNOTUs.harvest <- subset_samples(DT.TopNOTUs, SampleTime=="Harvest")
+tax_table(DT.TopNOTUs.harvest) <- tax_table(DT.TopNOTUs.harvest)[,1:6]
+DT.mc.bloom <- parse_phyloseq(DT.TopNOTUs.bloom)
+DT.mc.harvest <- parse_phyloseq(DT.TopNOTUs.harvest)
+
+
+# Zeale in Soil
+ZS.TopNOTUs.bloom <- subset_samples(ZS.TopNOTUs, SampleTime=="Bloom")
+
+ZS.TopNOTUs.harvest <- subset_samples(ZS.TopNOTUs, SampleTime=="Harvest")
+
+ZS.mc.bloom <- parse_phyloseq(ZS.TopNOTUs.bloom)
+ZS.mc.harvest <- parse_phyloseq(ZS.TopNOTUs.harvest)
+
+# D2 in Soil
+DS.TopNOTUs.bloom <- subset_samples(DS.TopNOTUs, SampleTime=="Bloom")
+tax_table(DS.TopNOTUs.bloom) <- tax_table(DS.TopNOTUs.bloom)[,1:6]
+DS.TopNOTUs.harvest <- subset_samples(DS.TopNOTUs, SampleTime=="Harvest")
+tax_table(DS.TopNOTUs.harvest) <- tax_table(DS.TopNOTUs.harvest)[,1:6]
+
+DS.mc.bloom <- parse_phyloseq(DS.TopNOTUs.bloom)
+DS.mc.harvest <- parse_phyloseq(DS.TopNOTUs.harvest)
+
+```
+```{r Create differential abbundance tree}
+# Zeale traps bloom
+ZT.mc.bloom$data$tax_abund_ZT <- calc_taxon_abund(ZT.mc.bloom, data = "otu_table")
+ZT.mc.bloom$data$tax_occ_ZT <- calc_n_samples(ZT.mc.bloom, "tax_abund_ZT", groups = "Management")
+ZT.mc.bloom$data$diff_table_ZT <- compare_groups(ZT.mc.bloom, data = "tax_abund_ZT", cols = ZT.mc.bloom$data$sample_data$samplenames,
+                                      groups = ZT.mc.bloom$data$sample_data$Management)
+ZT.mc.bloom$data$diff_table_ZT$adjusted_p_value <- p.adjust(ZT.mc.bloom$data$diff_table_ZT$wilcox_p_value,
+                                                 method = "fdr")
+# Zeale traps Harvest
+ZT.mc.harvest$data$tax_abund_ZT <- calc_taxon_abund(ZT.mc.harvest,data = "otu_table")
+ZT.mc.harvest$data$tax_occ_ZT <- calc_n_samples(ZT.mc.harvest, "tax_abund_ZT",groups = "Management")
+ZT.mc.harvest$data$diff_table_ZT <- compare_groups(ZT.mc.harvest, data = "tax_abund_ZT", cols = ZT.mc.harvest$data$sample_data$samplenames,
+                                      groups = ZT.mc.harvest$data$sample_data$Management)
+ZT.mc.harvest$data$diff_table_ZT$adjusted_p_value <- p.adjust(ZT.mc.harvest$data$diff_table_ZT$wilcox_p_value,
+                                                 method = "fdr")
+# D2 traps bloom
+DT.mc.bloom$data$tax_abund_DT <- calc_taxon_abund(DT.mc.bloom,data = "otu_table")
+DT.mc.bloom$data$tax_occ_DT <- calc_n_samples(DT.mc.bloom, "tax_abund_DT",groups = "Management")
+DT.mc.bloom$data$diff_table_DT <- compare_groups(DT.mc.bloom, data = "tax_abund_DT", cols = DT.mc.bloom$data$sample_data$samplenames,
+                                      groups = DT.mc.bloom$data$sample_data$Management)
+DT.mc.bloom$data$diff_table_DT$adjusted_p_value <- p.adjust(DT.mc.bloom$data$diff_table_DT$wilcox_p_value,
+                                                 method = "fdr")
+
+# D2 traps Harvest
+DT.mc.harvest$data$tax_abund_DT <- calc_taxon_abund(DT.mc.harvest,data = "otu_table")
+DT.mc.harvest$data$tax_occ_DT <- calc_n_samples(DT.mc.harvest, "tax_abund_DT",groups = "Management")
+DT.mc.harvest$data$diff_table_DT <- compare_groups(DT.mc.harvest, data = "tax_abund_DT", cols = DT.mc.harvest$data$sample_data$samplenames,
+                                      groups = DT.mc.harvest$data$sample_data$Management)
+DT.mc.harvest$data$diff_table_DT$adjusted_p_value <- p.adjust(DT.mc.harvest$data$diff_table_DT$wilcox_p_value,
+                                                 method = "fdr")
+
+# Zeale soil bloom
+ZS.mc.bloom$data$tax_abund_ZS <- calc_taxon_abund(ZS.mc.bloom,data = "otu_table")
+ZS.mc.bloom$data$tax_occ_ZS <- calc_n_samples(ZS.mc.bloom, "tax_abund_ZS",groups = "Management")
+ZS.mc.bloom$data$diff_table_ZS <- compare_groups(ZS.mc.bloom, data = "tax_abund_ZS", cols = ZS.mc.bloom$data$sample_data$samplenames,
+                                      groups = ZS.mc.bloom$data$sample_data$Management)
+ZS.mc.bloom$data$diff_table_ZS$adjusted_p_value <- p.adjust(ZS.mc.bloom$data$diff_table_ZS$wilcox_p_value,
+                                                 method = "fdr")
+
+# Zeale soil Harvest
+ZS.mc.harvest$data$tax_abund_ZS <- calc_taxon_abund(ZS.mc.harvest,data = "otu_table")
+ZS.mc.harvest$data$tax_occ_ZS <- calc_n_samples(ZS.mc.harvest, "tax_abund_ZS",groups = "Management")
+ZS.mc.harvest$data$diff_table_ZS <- compare_groups(ZS.mc.harvest, data = "tax_abund_ZS", cols = ZS.mc.harvest$data$sample_data$samplenames,
+                                      groups = ZS.mc.harvest$data$sample_data$Management)
+ZS.mc.harvest$data$diff_table_ZS$adjusted_p_value <- p.adjust(ZS.mc.harvest$data$diff_table_ZS$wilcox_p_value,
+                                                 method = "fdr")
+
+
+# D2 soil bloom
+DS.mc.bloom$data$tax_abund_DS <- calc_taxon_abund(DS.mc.bloom,data = "otu_table")
+DS.mc.bloom$data$tax_occ_DS <- calc_n_samples(DS.mc.bloom, "tax_abund_DS",groups = "Management")
+DS.mc.bloom$data$diff_table_DS <- compare_groups(DS.mc.bloom, data = "tax_abund_DS", cols = DS.mc.bloom$data$sample_data$samplenames,
+                                      groups = DS.mc.bloom$data$sample_data$Management)
+DS.mc.bloom$data$diff_table_DS$adjusted_p_value <- p.adjust(DS.mc.bloom$data$diff_table_DS$wilcox_p_value,
+                                                 method = "fdr")
+
+# D2 soil Harvest
+DS.mc.harvest$data$tax_abund_DS <- calc_taxon_abund(DS.mc.harvest,data = "otu_table")
+DS.mc.harvest$data$tax_occ_DS <- calc_n_samples(DS.mc.harvest, "tax_abund_DS",groups = "Management")
+DS.mc.harvest$data$diff_table_DS <- compare_groups(DS.mc.harvest, data = "tax_abund_DS", cols = DS.mc.harvest$data$sample_data$samplenames,
+                                      groups = DS.mc.harvest$data$sample_data$Management)
+DS.mc.harvest$data$diff_table_DS$adjusted_p_value <- p.adjust(DS.mc.harvest$data$diff_table_DS$wilcox_p_value,
+                                                 method = "fdr")
+```
+```{r Plot Heat Trees}
+ZT.HT.bloom <- heat_tree_matrix(ZT.mc.bloom,
+                 data = "diff_table_ZT",
+                 node_size = n_obs,
+                 node_label = taxon_names,
+                 node_color = log2_median_ratio,
+                 node_color_range = diverging_palette(),
+                 node_color_trans = "linear",
+                 node_color_interval = c(-3, 3),
+                 edge_color_interval = c(-3, 3),
+                 key_size = 0.75,
+                 overlap_avoidance = 0.7,
+                 layout = "davidson-harel", # The primary layout algorithm
+                 initial_layout = "reingold-tilford", # The layout algorithm that initializes node locations
+                 node_size_axis_label = "Number of OTUs",
+                 node_color_axis_label = "Log2 ratio median proportions") 
+
+ZT.HT.harvest <- heat_tree_matrix(ZT.mc.harvest,
+                 data = "diff_table_ZT",
+                 node_size = n_obs,
+                 node_label = taxon_names,
+                 node_color = log2_median_ratio,
+                 node_color_range = diverging_palette(),
+                 node_color_trans = "linear",
+                 node_color_interval = c(-3, 3),
+                 edge_color_interval = c(-3, 3),
+                 key_size = 0.75,
+                 overlap_avoidance = 0.7,
+                 layout = "davidson-harel", # The primary layout algorithm
+                 initial_layout = "reingold-tilford", # The layout algorithm that initializes node locations
+                 node_size_axis_label = "Number of OTUs",
+                 node_color_axis_label = "Log2 ratio median proportions") 
+
+ZT.grid <- plot_grid(ZT.HT.bloom,ZT.HT.harvest)
+
+DT.HT.bloom <- heat_tree_matrix(DT.mc.bloom,
+                 data = "diff_table_DT",
+                 node_size = n_obs,
+                 node_label = taxon_names,
+                 node_color = log2_median_ratio,
+                 node_color_range = diverging_palette(),
+                 node_color_trans = "linear",
+                 node_color_interval = c(-3, 3),
+                 edge_color_interval = c(-3, 3),
+                 key_size = 0.75,
+                 overlap_avoidance = 0.7,
+                 layout = "davidson-harel", # The primary layout algorithm
+                 initial_layout = "reingold-tilford", # The layout algorithm that initializes node locations
+                 node_size_axis_label = "Number of OTUs",
+                 node_color_axis_label = "Log2 ratio median proportions") 
+
+DT.HT.harvest <- heat_tree_matrix(DT.mc.harvest,
+                 data = "diff_table_DT",
+                 node_size = n_obs,
+                 node_label = taxon_names,
+                 node_color = log2_median_ratio,
+                 node_color_range = diverging_palette(),
+                 node_color_trans = "linear",
+                 node_color_interval = c(-3, 3),
+                 edge_color_interval = c(-3, 3),
+                 key_size = 0.75,
+                 overlap_avoidance = 0.7,
+                 layout = "davidson-harel", # The primary layout algorithm
+                 initial_layout = "reingold-tilford", # The layout algorithm that initializes node locations
+                 node_size_axis_label = "Number of OTUs",
+                 node_color_axis_label = "Log2 ratio median proportions") 
+
+DT.grid <- plot_grid(DT.HT.bloom,DT.HT.harvest)
+
+ZS.HT.bloom <- heat_tree_matrix(ZS.mc.bloom,
+                 data = "diff_table_ZS",
+                 node_size = n_obs,
+                 node_label = taxon_names,
+                 node_color = log2_median_ratio,
+                 node_color_range = diverging_palette(),
+                 node_color_trans = "linear",
+                 node_color_interval = c(-3, 3),
+                 edge_color_interval = c(-3, 3),
+                 key_size = 0.75,
+                 overlap_avoidance = 0.7,
+                 layout = "davidson-harel", # The primary layout algorithm
+                 initial_layout = "reingold-tilford", # The layout algorithm that initializes node locations
+                 node_size_axis_label = "Number of OTUs",
+                 node_color_axis_label = "Log2 ratio median proportions") 
+
+ZS.HT.harvest <- heat_tree_matrix(ZS.mc.harvest,
+                 data = "diff_table_ZS",
+                 node_size = n_obs,
+                 node_label = taxon_names,
+                 node_color = log2_median_ratio,
+                 node_color_range = diverging_palette(),
+                 node_color_trans = "linear",
+                 node_color_interval = c(-3, 3),
+                 edge_color_interval = c(-3, 3),
+                 key_size = 0.75,
+                 overlap_avoidance = 0.7,
+                 layout = "davidson-harel", # The primary layout algorithm
+                 initial_layout = "reingold-tilford", # The layout algorithm that initializes node locations
+                 node_size_axis_label = "Number of OTUs",
+                 node_color_axis_label = "Log2 ratio median proportions") 
+
+ZS.grid <- plot_grid(ZS.HT.bloom,ZS.HT.harvest)
+
+DS.HT.bloom <- heat_tree_matrix(DS.mc.bloom,
+                 data = "diff_table_DS",
+                 node_size = n_obs,
+                 node_label = taxon_names,
+                 node_color = log2_median_ratio,
+                 node_color_range = diverging_palette(),
+                 node_color_trans = "linear",
+                 node_color_interval = c(-3, 3),
+                 edge_color_interval = c(-3, 3),
+                 key_size = 0.75,
+                 overlap_avoidance = 0.7,
+                 layout = "davidson-harel", # The primary layout algorithm
+                 initial_layout = "reingold-tilford", # The layout algorithm that initializes node locations
+                 node_size_axis_label = "Number of OTUs",
+                 node_color_axis_label = "Log2 ratio median proportions") 
+
+DS.HT.harvest <- heat_tree_matrix(DS.mc.harvest,
+                 data = "diff_table_DS",
+                 node_size = n_obs,
+                 node_label = taxon_names,
+                 node_color = log2_median_ratio,
+                 node_color_range = diverging_palette(),
+                 node_color_trans = "linear",
+                 node_color_interval = c(-3, 3),
+                 edge_color_interval = c(-3, 3),
+                 key_size = 0.75,
+                 overlap_avoidance = 0.7,
+                 layout = "davidson-harel", # The primary layout algorithm
+                 initial_layout = "reingold-tilford", # The layout algorithm that initializes node locations
+                 node_size_axis_label = "Number of OTUs",
+                 node_color_axis_label = "Log2 ratio median proportions") 
+
+DS.grid <- plot_grid(DS.HT.bloom,DS.HT.harvest)
+
+#Zeale in traps
+ZT.grid
+# D2 in traps
+DT.grid
+#Zeale in soil
+ZS.grid
+# D2 in soil
+DS.grid
+```

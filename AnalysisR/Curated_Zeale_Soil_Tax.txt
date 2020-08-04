@@ -1,0 +1,213 @@
+OTU	Kingdom	Phylum	Class	Order	Family	Genus	Species
+OTU1	Amoebozoa	Discosea	Longamoebia	Centramoebida	Acanthamoebidae	Acanthamoeba	Unknown
+OTU10	Animalia	Tardigrada	Eutardigrada	Parachela	Unknown	Unknown	Unknown
+OTU100	Animalia	Arthropoda	Arachnida	Unknown	Unknown	Unknown
+OTU101	Amoebozoa	Tubulinea	Arcellinida	Hyalospheniidae	Nebela	Unknown	Unknown
+OTU102	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Philodina	Unknown
+OTU109	Animalia	Arthropoda	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU11	Animalia	Arthropoda	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU111	Animalia	Arthropoda	Insecta	Hemiptera	Cicadidae	Platypleura	Platypleura capensis
+OTU113	Animalia	Cnidaria	Hydrozoa	Anthoathecata	Hydridae	Hydra	Hydra oxycnida
+OTU116	Amoebozoa	Tubulinea	Arcellinida	Hyalospheniidae	Unknown	Unknown	Unknown
+OTU120	Animalia	Arthropoda	Arachnida	Araneae	Linyphiidae	Tenuiphantes	Tenuiphantes tenuis
+OTU121	Chromista	Stramenopiles	Oomycetes	Albuginales	Unknown	Unknown	Unknown
+OTU123	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Macrotrachela	Macrotrachela latior
+OTU126	Animalia	Arthropoda	Arachnida	Prostigmata	Eupodidae	Unknown	Unknown
+OTU127	Animalia	Arthropoda	Arachnida	Prostigmata	Tarsonemidae	Unknown	Unknown
+OTU13	Virus	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU131	Archaeplastida	Rhodophyta	Florideophyceae	Batrachospermales	Unknown	Unknown	Unknown
+OTU133	Chromista	Stramenopiles	Oomycetes	Saprolegniales	Unknown	Unknown	Unknown
+OTU136	Animalia	Arthropoda	Arachnida	Araneae	Lycosidae	Alopecosa	Alopecosa barbipes
+OTU137	Chromista	Stramenopiles	Oomycetes	Unknown	Unknown	Unknown	Unknown
+OTU141	Animalia	Rotifera	Eurotatoria	Bdelloidea	Adinetidae	Adineta	Unknown
+OTU148	Animalia	Arthropoda	Arachnida	Prostigmata	Eupodidae	Unknown	Unknown
+OTU151	Chromista	Stramenopiles	Oomycetes	Myzocytiopsidales	Unknown	Unknown	Unknown
+OTU154	Fungi	Mucoromycota	Mucoromycotina	Mortierellales	Unknown	Unknown	Unknown 
+OTU163	Chromista	Stramenopiles	Oomycetes	Myzocytiopsidales	Unknown	Unknown	Unknown
+OTU169	Animalia	Arthropoda	Insecta	Trichoptera	Calocidae	Caenota	Caenota nemorosa
+OTU17	Animalia	Rotifera	Eurotatoria	Bdelloidea	Unknown	Unknown	Unknown
+OTU172	Animalia	Rotifera	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU175	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Philodina	Philodina flaviceps
+OTU177	Chromista	Stramenopiles	Oomycetes	Albuginales	Unknown	Unknown	Unknown
+OTU18	Animalia	Arthropoda	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU182	Chromista	Stramenopiles	Oomycetes	Saprolegniales	Unknown	Unknown	Unknown
+OTU184	Animalia	Arthropoda	Arachnida	Araneae	Linyphiidae	Tenuiphantes	Tenuiphantes tenuis
+OTU188	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Rotaria	Rotaria tardigrada
+OTU192	Chromista	Stramenopiles	Oomycetes	Pythiales	Unknown	Unknown	Unknown
+OTU194	Chromista	Stramenopiles	Oomycetes	Pythiales	Unknown	Unknown	Unknown
+OTU195	Animalia	Arthropoda	Insecta	Diptera	Chironomidae	Paratanytarsus	Paratanytarsus kathleenae
+OTU197	Animalia	Rotifera	Eurotatoria	Bdelloidea	Adinetidae	Adineta	Unknown
+OTU2	Chromista	Stramenopiles	Oomycetes	Pythiales	Pythiaceae	Unknown	Unknown
+OTU203	Animalia	Rotifera	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU205	Animalia	Cnidaria	Hydrozoa	Anthoathecata	Hydridae	Hydra	Hydra vulgaris
+OTU215	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Rotaria	Rotaria rotatoria
+OTU216	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Pleuretra	Pleuretra lineata
+OTU219	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Rotaria	Rotaria sordida
+OTU22	Animalia	Arthropoda	Arachnida	Prostigmata	Eupodidae	Unknown	Unknown
+OTU224	Animalia	Arthropoda	Insecta	Hemiptera	Unknown	Unknown	Unknown
+OTU227	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Macrotrachela	Macrotrachela quadricornifera
+OTU229	Animalia	Arthropoda	Insecta	Trichoptera	Hydroptilidae	Neotrichia	Unknown
+OTU234	Animalia	Annelida	Clitellata	Haplotaxida	Almidae	Unknown	Unknown
+OTU235	Animalia	Rotifera	Eurotatoria	Bdelloidea	Adinetidae	Adineta	Adineta vaga
+OTU237	Animalia	Arthropoda	Arachnida	Unknown	Unknown	Unknown	Unknown
+OTU240	Archaeplastida	Rhodophyta	Florideophyceae	Ceramiales	Unknown	Unknown	Unknown
+OTU245	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Unknown	Unknown	Unknown
+OTU246	Archaeplastida	Rhodophyta	Florideophyceae	Plocamiales	Unknown	Unknown	Unknown
+OTU250	Animalia	Rotifera	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU251	Chromista	Ochrophyta	Xanthophyceae	Mischococcales	Unknown	Unknown	Unknown
+OTU253	Chromista	Stramenopiles	Oomycetes	Pythiales	Unknown	Unknown	Unknown
+OTU27	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Philodina	Philodina plena
+OTU270	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Macrotrachela	Macrotrachela ehrenbergii
+OTU28	Animalia	Arthropoda	Arachnida	Prostigmata	Eupodidae	Unknown	Unknown
+OTU280	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Rotaria	Rotaria rotatoria
+OTU284	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Rotaria	Unknown
+OTU288	Animalia	Rotifera	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU29	Animalia	Arthropoda	Arachnida	Prostigmata	Eupodidae	Unknown	Unknown
+OTU290	Animalia	Rotifera	Eurotatoria	Bdelloidea	Unknown	Unknown	Unknown
+OTU293	Animalia	Arthropoda	Arachnida	Prostigmata	Eupodidae	Unknown	Unknown
+OTU294	Animalia	Rotifera	Eurotatoria	Bdelloidea	Unknown	Unknown	Unknown
+OTU295	Animalia	Rotifera	Eurotatoria	Bdelloidea	Unknown	Unknown	Unknown
+OTU297	Animalia	Arthropoda	Arachnida	Acari	Unknown	Unknown	Unknown
+OTU30	Chromista	Stramenopiles	Oomycetes	Saprolegniales	Unknown	Unknown	Unknown
+OTU300	Protozoa	Loukozoa	Malawimonadae	Malawimonadida	Unknown	Unknown	Unknown
+OTU301	Chromista	Stramenopiles	Oomycetes	Pythiales	Unknown	Unknown	Unknown
+OTU302	Archaeplastida	Chlorophyta	Maiellophyceae	Mamiellales	Unknown	Unknown	Unknown
+OTU303	Chromista	Ochrophyta	Dictyochophyceae	Pedinellales	Unknown	Unknown	Unknown
+OTU309	Animalia	Arthropoda	Arachnida	Prostigmata	Eupodidae	Unknown	Unknown
+OTU311	Archaeplastida	Rhodophyta	Florideophyceae	Batrachospermales	Unknown	Unknown	Unknown
+OTU313	Chromista	Stramenopiles	Oomycetes	Pythiales	Unknown	Unknown	Unknown
+OTU315	Chromista	Stramenopiles	Oomycetes	Peronosporales	Unknown	Unknown	Unknown
+OTU318	Chromista	Stramenopiles	Oomycetes	Saprolegniales	Unknown	Unknown	Unknown
+OTU321	Animalia	Arthropoda	Insecta	Trichoptera	Hydrobiosidae	Ulmerochorema	Ulmerochorema rubiconum
+OTU325	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Rotaria	Rotaria rotatoria
+OTU33	Chromista	Stramenopiles	Oomycetes	Pythiales	Unknown	Unknown	Unknown
+OTU330	Animalia	Arthropoda	Arachnida	Araneae	Unknown	Unknown	Unknown
+OTU331	Chromista	Stramenopiles	Oomycetes	Myzocytiopsidales	Unknown	Unknown	Unknown
+OTU332	Animalia	Rotifera	Eurotatoria	Bdelloidea	Unknown	Unknown	Unknown
+OTU341	Animalia	Arthropoda	Entognatha	Diplura	Campodeidae	Campodea	Campodea lubbocki
+OTU344	Chromista	Stramenopiles	Oomycetes	Albuginales	Unknown	Unknown	Unknown
+OTU346	Animalia	Arthropoda	Arachnida	Acari	Unknown	Unknown	Unknown
+OTU349	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Unknown	Unknown	Unknown
+OTU357	Animalia	Arthropoda	Insecta	Diptera	Unknown	Unknown	Unknown
+OTU36	Animalia	Rotifera	Eurotatoria	Bdelloidea	Habrotrochidae	Unknown	Unknown
+OTU360	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Macrotrachela	Unknown
+OTU369	Animalia	Arthropoda	Arachnida	Sarcoptiformes	Oribatulidae	Unknown	Unknown
+OTU37	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Unknown	Unknown	Unknown
+OTU371	Animalia	Nematoda	Secernentea	Rhabditida	Unknown	Unknown	Unknown
+OTU372	Animalia	Arthropoda	Insecta	Odonata	Megapodagrionidae	Paraphlebia	Paraphlebia quinta
+OTU374	Animalia	Arthropoda	Arachnida	Mesostigmata	Ameroseiidae	Unknown	Unknown
+OTU375	Chromista	Stramenopiles	Oomycetes	Myzocytiopsidales	Unknown	Unknown	Unknown
+OTU376	Animalia	Arthropoda	Arachnida	Araneae	Unknown	Unknown	Unknown
+OTU38	Chromista	Stramenopiles	Oomycetes	Peronosporales	Unknown	Unknown	Unknown
+OTU382	Archaeplastida	Glaucophyta	Glaucophyceae	Glaucocystales	Unknown	Unknown	Unknown
+OTU394	Chromista	Stramenopiles	Oomycetes	Saprolegniales	Unknown	Unknown	Unknown
+OTU4	Chromista	Stramenopiles	Oomycetes	Peronosporales	Unknown	Unknown	Unknown
+OTU400	Amoebozoa	Tubulinea	Arcellinida	Hyalospheniidae	Unknown	Unknown	Unknown
+OTU404	Animalia	Arthropoda	Entognatha	Collembola	Tomoceridae	Unknown	Unknown
+OTU407	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU408	Animalia	Arthropoda	Arachnida	Araneae	Unknown	Unknown	Unknown
+OTU409	Animalia	Cnidaria	Hydrozoa	Trachymedusae	Rhopalonematidae	Colobonema	Colobonema sericeum
+OTU410	Animalia	Arthropoda	Insecta	Diptera	Dolichopodidae	Unknown	Unknown
+OTU415	Animalia	Arthropoda	Arachnida	Prostigmata	Eupodidae	Unknown	Unknown
+OTU430	Animalia	Arthropoda	Arachnida	Prostigmata	Eupodidae	Unknown	Unknown
+OTU431	Animalia	Arthropoda	Insecta	Diptera	Ceratopogonidae	Culicoides	Culicoides distinctipennis
+OTU433	Animalia	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Bicyclus	Bicyclus dubia
+OTU442	Chromista	Stramenopiles	Oomycetes	Albuginales	Unknown	Unknown	Unknown
+OTU447	Chromista	Stramenopiles	Oomycetes	Saprolegniales	Unknown	Unknown	Unknown
+OTU449	Chromista	Stramenopiles	Oomycetes	Saprolegniales	Unknown	Unknown	Unknown
+OTU45	Amoebozoa	Tubulinea	Arcellinida	Hyalospheniidae	Unknown	Unknown	Unknown
+OTU457	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Philodina	Unknown
+OTU46	Chromista	Stramenopiles	Oomycetes	Unknown	Unknown	Unknown	Unknown
+OTU462	Amoebozoa	Tubulinea	Arcellinida	Hyalospheniidae	Unknown	Unknown	Unknown
+OTU467	Animalia	Arthropoda	Arachnida	Araneae	Theridiidae	Enoplognatha	Enoplognatha ovata
+OTU47	Animalia	Arthropoda	Arachnida	Sarcoptiformes	Oppiidae	Unknown	Unknown
+OTU478	Animalia	Mollusca	Gastropoda	Stylommatophora	Unknown	Unknown	Unknown
+OTU483	Chromista	Stramenopiles	Oomycetes	Pythiales	Unknown	Unknown	Unknown
+OTU484	Chromista	Stramenopiles	Oomycetes	Saprolegniales	Unknown	Unknown	Unknown
+OTU485	Chromista	Stramenopiles	Oomycetes	Unknown	Unknown	Unknown	Unknown
+OTU49	Animalia	Arthropoda	Insecta	Diptera	Cecidomyiidae	Unknown	Unknown
+OTU491	Amoebozoa	Tubulinea	Arcellinida	Hyalospheniidae	Unknown	Unknown	Unknown
+OTU494	Chromista	Stramenopiles	Oomycetes	Pythiales	Unknown	Unknown	Unknown
+OTU497	Chromista	Stramenopiles	Oomycetes	Saprolegniales	Unknown	Unknown	Unknown
+OTU498	Chromista	Stramenopiles	Oomycetes	Unknown	Unknown	Unknown	Unknown
+OTU506	Chromista	Stramenopiles	Oomycetes	Myzocytiopsidales	Unknown	Unknown	Unknown
+OTU508	Animalia	Rotifera	Eurotatoria	Bdelloidea	Adinetidae	Adineta	Adineta gracilis
+OTU513	Animalia	Tardigrada	Eutardigrada	Parachela	Hypsibiidae	Unknown	Unknown
+OTU516	Archaeplastida	Rhodophyta	Florideophyceae	Ceramiales	Unknown	Unknown	Unknown
+OTU520	Animalia	Arthropoda	Arachnida	Prostigmata	Nanorchestidae	Nanorchestes	Unknown
+OTU527	Animalia	Arthropoda	Arachnida	Prostigmata	Eupodidae	Unknown	Unknown
+OTU528	Animalia	Nematoda	Secernentea	Ascaridida	Ascarididae	Baylisascaris	Baylisascaris schroederi
+OTU530	Chromista	Stramenopiles	Oomycetes	Peronosporales	Unknown	Unknown	Unknown
+OTU535	Animalia	Arthropoda	Insecta	Diptera	Chironomidae	Unknown	Unknown
+OTU54	Chromista	Stramenopiles	Oomycetes	Pythiales	Unknown	Unknown	Unknown
+OTU55	Animalia	Arthropoda	Insecta	Coleoptera	Unknown	Unknown	Unknown
+OTU555	Chromista	Stramenopiles	Oomycetes	Peronosporales	Unknown	Unknown	Unknown
+OTU556	Animalia	Arthropoda	Arachnida	Araneae	Unknown	Unknown	Unknown
+OTU56	Chromista	Stramenopiles	Oomycetes	Myzocytiopsidales	Unknown	Unknown	Unknown
+OTU566	Animalia	Arthropoda	Insecta	Diptera	Unknown	Unknown	Unknown
+OTU568	Chromista	Stramenopiles	Oomycetes	Saprolegniales	Unknown	Unknown	Unknown
+OTU579	Animalia	Nematoda	Secernentea	Ascaridida	Heterakidae	Heterakis	Heterakis beramporia
+OTU58	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Philodina	Philodina plena
+OTU582	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU589	Archaeplastida	Rhodophyta	Florideophyceae	Gigartinales	Unknown	Unknown	Unknown
+OTU597	Animalia	Arthropoda	Arachnida	Prostigmata	Tydeidae	Unknown	Unknown
+OTU598	Animalia	Arthropoda	Insecta	Diptera	Unknown	Unknown	Unknown
+OTU60	Chromista	Stramenopiles	Oomycetes	Saprolegniales	Unknown	Unknown	Unknown
+OTU608	Animalia	Arthropoda	Insecta	Diptera	Unknown	Unknown	Unknown
+OTU61	Chromista	Stramenopiles	Oomycetes	Albuginales	Unknown	Unknown	Unknown
+OTU616	Animalia	Arthropoda	Insecta	Diptera	Cecidomyiidae	Unknown	Unknown
+OTU617	Animalia	Arthropoda	Arachnida	Prostigmata	Tydeidae	Microtydeus	Unknown
+OTU628	Animalia	Arthropoda	Insecta	Hemiptera	Cicadidae	Platylomia	Platylomia malickyi
+OTU629	Animalia	Rotifera	Eurotatoria	Bdelloidea	Habrotrochidae	Habrotrocha	Habrotrocha constricta
+OTU63	Animalia	Arthropoda	Entognatha	Collembola	Sminthurididae	Sminthurides	Unknown
+OTU630	Amoebozoa	Discosea	Dactylopodida	Unknown	Unknown	Unknown	Unknown
+OTU637	Animalia	Arthropoda	Entognatha	Collembola	Isotomidae	Parisotoma	Unknown
+OTU641	Chromista	Onchrophyta	Xanthophyceae	Mischococcales	Unknown	Unknown	Unknown
+OTU65	Viridiplantae	Streptophyta	Mesostigmatophyceae	Mesostigmatales	Unknown	Unknown	Unknown
+OTU657	Animalia	Mollusca	Gastropoda	Stylommatophora	Agriolimacidae	Deroceras	Deroceras reticulatum
+OTU66	Animalia	Arthropoda	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU665	Amoebozoa	Discosea	Dactylopodida	Unknown	Unknown	Unknown	Unknown
+OTU669	Animalia	Rotifera	Eurotatoria	Bdelloidea	Adinetidae	Adineta	Adineta vaga
+OTU679	Animalia	Arthropoda	Insecta	Coleoptera	Unknown	Unknown	Unknown
+OTU681	Animalia	Rotifera	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU684	Chromista	Bacillariophyta	Bacillariophyceae	Unknown	Unknown	Unknown	Unknown
+OTU696	Animalia	Arthropoda	Entognatha	Collembola	Entomobryidae	Entomobrya	Unknown
+OTU7	Chromista	Stramenopiles	Oomycetes	Pythiales	Pythiaceae	Unknown	Unknown
+OTU70	Animalia	Arthropoda	Entognatha	Collembola	Isotomidae	Parisotoma	Unknown
+OTU700	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Philodina	Philodina duplicalcar
+OTU71	Animalia	Arthropoda	Insecta	Hemiptera	Aphididae	Aploneura	Aploneura lentisci
+OTU713	Animalia	Arthropoda	Arachnida	Sarcoptiformes	Unknown	Unknown	Unknown
+OTU716	Animalia	Rotifera	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU72	Chromista	Stramenopiles	Oomycetes	Pythiales	Pythiaceae	Unknown	Unknown
+OTU720	Animalia	Rotifera	Eurotatoria	Bdelloidea	Adinetidae	Adineta	Adineta vaga
+OTU721	Animalia	Arthropoda	Arachnida	Prostigmata	Eupodidae	Unknown	Unknown
+OTU73	Animalia	Arthropoda	Arachnida	Prostigmata	Eupodidae	Linopodes	Unknown
+OTU734	Chromista	Ochrophyta	Xanthophyceae	Vaucheriales	Unknown	Unknown	Unknown
+OTU74	Animalia	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU741	Animalia	Arthropoda	Arachnida	Prostigmata	Rhagidiidae	Unknown	Unknown
+OTU750	Chromista	Stramenopiles	Oomycetes	Pythiales	Pythiogetonaceae	Unknown	Unknown
+OTU754	Viridiplantae	Tracheophyta	 Liliopsida	Poales	Unknown	Unknown	Unknown
+OTU762	Chromista	Stramenopiles	Oomycetes	Pythiales	Unknown	Unknown	Unknown
+OTU783	Chromista	Stramenopiles	Oomycetes	Peronosporales	Unknown	Unknown	Unknown
+OTU784	Chromista	Stramenopiles	Oomycetes	Unknown	Unknown	Unknown	Unknown
+OTU799	Animalia	Rotifera	Eurotatoria	Bdelloidea	Habrotrochidae	Habrotrocha	Habrotrocha elusa
+OTU80	Animalia	Arthropoda	Insecta	Coleoptera	Staphylinidae	Unknown	Unknown
+OTU802	Animalia	Arthropoda	Insecta	Diptera	Cecidomyiidae	Unknown	Unknown
+OTU808	Animalia	Cnidaria	Scyphozoa	Semaeostomeae	Cyaneidae	Cyanea	Cyanea capillata
+OTU813	Chromista	Stramenopiles	Oomycetes	Peronosporales	Unknown	Unknown	Unknown
+OTU83	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Philodina	Philodina plena
+OTU837	Amoebozoa	Tubulinea	Arcellinida	Hyalospheniidae	Unknown	Unknown	Unknown
+OTU847	Animalia	Arthropoda	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU852	Animalia	Arthropoda	Insecta	Diptera	Cecidomyiidae	Unknown	Unknown
+OTU86	Chromista	Stramenopiles	Oomycetes	Myzocytiopsidales	Unknown	Unknown	Unknown
+OTU886	Animalia	Rotifera	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU89	Chromista	Chromista	Stramenopiles	Oomycetes	Leptomitales	Unknown	Unknown
+OTU892	Amoebozoa	Tubulinea	Arcellinida	Hyalospheniidae	Unknown	Unknown	Unknown
+OTU90	Chromista	Stramenopiles	Oomycetes	Pythiales	Unknown	Unknown	Unknown
+OTU92	Animalia	Rotifera	Unknown	Unknown	Unknown	Unknown	Unknown
+OTU93	Animalia	Arthropoda	Insecta	Diptera	Cecidomyiidae	Unknown	Unknown
+OTU937	Animalia	Rotifera	Eurotatoria	Bdelloidea	Habrotrochidae	Unknown	Unknown
+OTU94	Animalia	Rotifera	Eurotatoria	Bdelloidea	Philodinidae	Philodina	Philodina plena
+OTU95	Chromista	Stramenopiles	Oomycetes	Albuginales	Unknown	Unknown	Unknown
+OTU950	Chromista	Stramenopiles	Oomycetes	Pythiales	Unknown	Unknown	Unknown
+OTU973	Amoebozoa	Tubulinea	Arcellinida	Unknown	Unknown	Unknown	Unknown
