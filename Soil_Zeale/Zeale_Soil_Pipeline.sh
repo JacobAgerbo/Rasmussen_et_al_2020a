@@ -45,7 +45,7 @@ WORK_DIR='/groups/hologenomics/jagerbo/data/02-Metabarcoding/V2'
 cd $FASTA_DIR/
 find *fastq.gz > temp
 sed 's/_L001_R[1-2]_001.fastq.gz//g' temp > temp2
-sed 's/TOG-VYJV-//g' temp2 > temp3
+sed 's/AJH-FSPA-//g' temp2 > temp3
 uniq temp3 > sample_list.txt
 rm -f temp*
 sample_list=$(cat sample_list.txt)
