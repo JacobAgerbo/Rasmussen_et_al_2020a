@@ -10,6 +10,6 @@ Bioinformatic and analytical pipeline for processing amplicon data, generated fr
 
 ## Bioinformatic pipeline for D2 amplicons in short
 * Quality Assessment
-* Quality filtering, primer removal, dereplication, and singleton removal
+* Quality filtering, primer removal, de-replication, and singleton removal
 * OTU Clustering
 * Taxanomic Assignment to curated D2 database (https://sid.erda.dk/public/archives/1e9e4303c5b82b63d505eeaa1e585fc5/published-archive.html)
